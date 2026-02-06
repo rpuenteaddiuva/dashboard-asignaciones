@@ -90,7 +90,7 @@ with st.container(horizontal=True):
 
 st.markdown("---")
 
-# Gráficos en dos columnas
+# Gráficos en dos columnas - Tendencias
 col1, col2 = st.columns(2)
 
 with col1:
@@ -103,19 +103,39 @@ with col1:
 
 with col2:
     with st.container(border=True):
+        st.subheader("📁 Expedientes por Mes")
+        df_exp_mensual = df_filtrado.groupby('mes')['expedientes'].sum().reset_index()
+        fig = px.line(df_exp_mensual, x='mes', y='expedientes', markers=True, color_discrete_sequence=['#E94F37'])
+        fig.update_layout(xaxis_tickangle=-45, height=350)
+        st.plotly_chart(fig, use_container_width=True)
+
+# Gráficos por país
+col3, col4 = st.columns(2)
+
+with col3:
+    with st.container(border=True):
         st.subheader("🌎 Servicios por País")
         df_pais = df_filtrado.groupby('pais')['servicios'].sum().reset_index()
         df_pais = df_pais.sort_values('servicios', ascending=True)
-        # Altura dinámica: 30px por país, mínimo 350px
         chart_height = max(350, len(df_pais) * 30)
         fig = px.bar(df_pais, x='servicios', y='pais', orientation='h')
         fig.update_layout(height=chart_height)
         st.plotly_chart(fig, use_container_width=True)
 
-# Segunda fila de gráficos
-col3, col4 = st.columns(2)
+with col4:
+    with st.container(border=True):
+        st.subheader("📁 Expedientes por País")
+        df_pais_exp = df_filtrado.groupby('pais')['expedientes'].sum().reset_index()
+        df_pais_exp = df_pais_exp.sort_values('expedientes', ascending=True)
+        chart_height = max(350, len(df_pais_exp) * 30)
+        fig = px.bar(df_pais_exp, x='expedientes', y='pais', orientation='h', color_discrete_sequence=['#E94F37'])
+        fig.update_layout(height=chart_height)
+        st.plotly_chart(fig, use_container_width=True)
 
-with col3:
+# Tercera fila de gráficos
+col5, col6 = st.columns(2)
+
+with col5:
     with st.container(border=True):
         st.subheader("🔧 Distribución por Tipo de Asignación")
         df_tipo = df_filtrado.groupby('tipo_asignacion')['servicios'].sum().reset_index()
@@ -123,7 +143,7 @@ with col3:
         fig.update_layout(height=350)
         st.plotly_chart(fig, use_container_width=True)
 
-with col4:
+with col6:
     with st.container(border=True):
         st.subheader("📊 App vs Manual (Servicios)")
         
