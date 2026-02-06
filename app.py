@@ -88,8 +88,10 @@ with col2:
         st.subheader("🌎 Servicios por País")
         df_pais = df_filtrado.groupby('pais')['servicios'].sum().reset_index()
         df_pais = df_pais.sort_values('servicios', ascending=True)
+        # Altura dinámica: 30px por país, mínimo 350px
+        chart_height = max(350, len(df_pais) * 30)
         fig = px.bar(df_pais, x='servicios', y='pais', orientation='h')
-        fig.update_layout(height=350)
+        fig.update_layout(height=chart_height)
         st.plotly_chart(fig, use_container_width=True)
 
 # Segunda fila de gráficos
