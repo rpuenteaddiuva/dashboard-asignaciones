@@ -98,148 +98,169 @@ with st.container(horizontal=True):
 
 st.markdown("---")
 
-# Gráficos en dos columnas - Tendencias
-col1, col2 = st.columns(2)
+# Pestañas principales
+tab_asignaciones, tab_nodos = st.tabs(["📊 Asignaciones", "📞 Nodos (Call Centers)"])
 
-with col1:
-    with st.container(border=True):
-        st.subheader("📈 Servicios por Mes")
-        df_mensual = df_filtrado.groupby('mes')['servicios'].sum().reset_index()
-        fig = px.line(df_mensual, x='mes', y='servicios', markers=True)
-        fig.update_layout(xaxis_tickangle=-45, height=350)
-        st.plotly_chart(fig, use_container_width=True)
-
-with col2:
-    with st.container(border=True):
-        st.subheader("📁 Expedientes por Mes")
-        df_exp_mensual = df_filtrado.groupby('mes')['expedientes'].sum().reset_index()
-        fig = px.line(df_exp_mensual, x='mes', y='expedientes', markers=True, color_discrete_sequence=['#E94F37'])
-        fig.update_layout(xaxis_tickangle=-45, height=350)
-        st.plotly_chart(fig, use_container_width=True)
-
-# Gráficos por país
-col3, col4 = st.columns(2)
-
-with col3:
-    with st.container(border=True):
-        st.subheader("🌎 Servicios por País")
-        df_pais = df_filtrado.groupby('pais')['servicios'].sum().reset_index()
-        df_pais = df_pais.sort_values('servicios', ascending=True)
-        chart_height = max(350, len(df_pais) * 30)
-        fig = px.bar(df_pais, x='servicios', y='pais', orientation='h')
-        fig.update_layout(height=chart_height)
-        st.plotly_chart(fig, use_container_width=True)
-
-with col4:
-    with st.container(border=True):
-        st.subheader("📁 Expedientes por País")
-        df_pais_exp = df_filtrado.groupby('pais')['expedientes'].sum().reset_index()
-        df_pais_exp = df_pais_exp.sort_values('expedientes', ascending=True)
-        chart_height = max(350, len(df_pais_exp) * 30)
-        fig = px.bar(df_pais_exp, x='expedientes', y='pais', orientation='h', color_discrete_sequence=['#E94F37'])
-        fig.update_layout(height=chart_height)
-        st.plotly_chart(fig, use_container_width=True)
-
-# Tercera fila de gráficos
-col5, col6 = st.columns(2)
-
-with col5:
-    with st.container(border=True):
-        st.subheader("🔧 Distribución por Tipo de Asignación")
-        df_tipo = df_filtrado.groupby('tipo_asignacion')['servicios'].sum().reset_index()
-        fig = px.pie(df_tipo, values='servicios', names='tipo_asignacion', hole=0.4)
-        fig.update_layout(height=350)
-        st.plotly_chart(fig, use_container_width=True)
-
-with col6:
-    with st.container(border=True):
-        st.subheader("📊 App vs Manual (Servicios)")
-        
-        # Clasificación
-        app_types = ['APP', 'ANCLAJE APP SOA', 'ANCLAJE APP', 'ANCLAJE']
-        manual_types = ['MANUAL', 'ANCLAJE BASE', 'BASE AUTOMATICO']
-        
-        df_clasificado = df_filtrado.copy()
-        def clasificar(tipo):
-            if tipo in app_types:
-                return 'APP'
-            elif tipo in manual_types:
-                return 'MANUAL'
-            else:
-                return 'OTRO'
-        
-        df_clasificado['categoria'] = df_clasificado['tipo_asignacion'].apply(clasificar)
-        df_cat = df_clasificado.groupby('categoria')['servicios'].sum().reset_index()
-        
-        fig = px.bar(df_cat, x='categoria', y='servicios', color='categoria',
-                     color_discrete_map={'APP': '#2E86AB', 'MANUAL': '#E94F37', 'OTRO': '#999999'})
-        fig.update_layout(height=350, showlegend=False)
-        st.plotly_chart(fig, use_container_width=True)
-
-st.markdown("---")
-
-# Tabla de datos
-with st.container(border=True):
-    st.subheader("📋 Datos Detallados")
+# =====================
+# TAB: ASIGNACIONES
+# =====================
+with tab_asignaciones:
+    # Gráficos en dos columnas - Tendencias
+    col1, col2 = st.columns(2)
     
-    # Pivot por mes y tipo
-    df_pivot = df_filtrado.pivot_table(
-        index=['pais', 'mes'],
-        columns='tipo_asignacion',
-        values='servicios',
-        aggfunc='sum',
-        fill_value=0
-    ).reset_index()
-    
-    st.dataframe(df_pivot, use_container_width=True, hide_index=True)
-
-st.markdown("---")
-
-# Sección de Nodos (Call Centers)
-if df_nodos is not None:
-    st.header("📞 Distribución por Nodos (Call Centers)")
-    st.caption("Los nodos son los call centers que atienden a los diferentes países")
-    
-    col_n1, col_n2 = st.columns(2)
-    
-    with col_n1:
+    with col1:
         with st.container(border=True):
-            st.subheader("🏢 Expedientes por Nodo")
-            fig = px.bar(
-                df_nodos.sort_values('expedientes', ascending=True), 
-                x='expedientes', 
-                y='nodo', 
-                orientation='h',
-                color='nodo',
-                color_discrete_sequence=px.colors.qualitative.Set2
-            )
-            fig.update_layout(height=400, showlegend=False)
+            st.subheader("📈 Servicios por Mes")
+            df_mensual = df_filtrado.groupby('mes')['servicios'].sum().reset_index()
+            fig = px.line(df_mensual, x='mes', y='servicios', markers=True)
+            fig.update_layout(xaxis_tickangle=-45, height=350)
             st.plotly_chart(fig, use_container_width=True)
     
-    with col_n2:
+    with col2:
         with st.container(border=True):
-            st.subheader("📊 Distribución Porcentual")
-            fig = px.pie(
-                df_nodos, 
-                values='expedientes', 
-                names='nodo', 
-                hole=0.4,
-                color_discrete_sequence=px.colors.qualitative.Set2
-            )
-            fig.update_layout(height=400)
+            st.subheader("📁 Expedientes por Mes")
+            df_exp_mensual = df_filtrado.groupby('mes')['expedientes'].sum().reset_index()
+            fig = px.line(df_exp_mensual, x='mes', y='expedientes', markers=True, color_discrete_sequence=['#E94F37'])
+            fig.update_layout(xaxis_tickangle=-45, height=350)
             st.plotly_chart(fig, use_container_width=True)
     
-    # KPIs de nodos
-    with st.container(border=True):
-        st.subheader("📈 Resumen por Nodo")
-        st.dataframe(
-            df_nodos.sort_values('expedientes', ascending=False),
-            use_container_width=True,
-            hide_index=True
-        )
+    # Gráficos por país
+    col3, col4 = st.columns(2)
+    
+    with col3:
+        with st.container(border=True):
+            st.subheader("🌎 Servicios por País")
+            df_pais = df_filtrado.groupby('pais')['servicios'].sum().reset_index()
+            df_pais = df_pais.sort_values('servicios', ascending=True)
+            chart_height = max(350, len(df_pais) * 30)
+            fig = px.bar(df_pais, x='servicios', y='pais', orientation='h')
+            fig.update_layout(height=chart_height)
+            st.plotly_chart(fig, use_container_width=True)
+    
+    with col4:
+        with st.container(border=True):
+            st.subheader("📁 Expedientes por País")
+            df_pais_exp = df_filtrado.groupby('pais')['expedientes'].sum().reset_index()
+            df_pais_exp = df_pais_exp.sort_values('expedientes', ascending=True)
+            chart_height = max(350, len(df_pais_exp) * 30)
+            fig = px.bar(df_pais_exp, x='expedientes', y='pais', orientation='h', color_discrete_sequence=['#E94F37'])
+            fig.update_layout(height=chart_height)
+            st.plotly_chart(fig, use_container_width=True)
+    
+    # Tercera fila de gráficos
+    col5, col6 = st.columns(2)
+    
+    with col5:
+        with st.container(border=True):
+            st.subheader("🔧 Distribución por Tipo de Asignación")
+            df_tipo = df_filtrado.groupby('tipo_asignacion')['servicios'].sum().reset_index()
+            fig = px.pie(df_tipo, values='servicios', names='tipo_asignacion', hole=0.4)
+            fig.update_layout(height=350)
+            st.plotly_chart(fig, use_container_width=True)
+    
+    with col6:
+        with st.container(border=True):
+            st.subheader("📊 App vs Manual (Servicios)")
+            
+            # Clasificación
+            app_types = ['APP', 'ANCLAJE APP SOA', 'ANCLAJE APP', 'ANCLAJE']
+            manual_types = ['MANUAL', 'ANCLAJE BASE', 'BASE AUTOMATICO']
+            
+            df_clasificado = df_filtrado.copy()
+            def clasificar(tipo):
+                if tipo in app_types:
+                    return 'APP'
+                elif tipo in manual_types:
+                    return 'MANUAL'
+                else:
+                    return 'OTRO'
+            
+            df_clasificado['categoria'] = df_clasificado['tipo_asignacion'].apply(clasificar)
+            df_cat = df_clasificado.groupby('categoria')['servicios'].sum().reset_index()
+            
+            fig = px.bar(df_cat, x='categoria', y='servicios', color='categoria',
+                         color_discrete_map={'APP': '#2E86AB', 'MANUAL': '#E94F37', 'OTRO': '#999999'})
+            fig.update_layout(height=350, showlegend=False)
+            st.plotly_chart(fig, use_container_width=True)
     
     st.markdown("---")
+    
+    # Tabla de datos
+    with st.container(border=True):
+        st.subheader("📋 Datos Detallados")
+        
+        # Pivot por mes y tipo
+        df_pivot = df_filtrado.pivot_table(
+            index=['pais', 'mes'],
+            columns='tipo_asignacion',
+            values='servicios',
+            aggfunc='sum',
+            fill_value=0
+        ).reset_index()
+        
+        st.dataframe(df_pivot, use_container_width=True, hide_index=True)
+
+# =====================
+# TAB: NODOS
+# =====================
+with tab_nodos:
+    if df_nodos is not None:
+        st.subheader("🏢 Distribución por Nodos (Call Centers)")
+        st.caption("Los nodos son los call centers que atienden a los diferentes países")
+        
+        # KPIs de nodos
+        with st.container(horizontal=True):
+            total_exp_nodos = df_nodos['expedientes'].sum()
+            num_nodos = len(df_nodos)
+            st.metric("📁 Total Expedientes", f"{total_exp_nodos:,.0f}", border=True)
+            st.metric("🏢 Nodos Activos", num_nodos, border=True)
+        
+        st.markdown("---")
+        
+        col_n1, col_n2 = st.columns(2)
+        
+        with col_n1:
+            with st.container(border=True):
+                st.subheader("📊 Expedientes por Nodo")
+                fig = px.bar(
+                    df_nodos.sort_values('expedientes', ascending=True), 
+                    x='expedientes', 
+                    y='nodo', 
+                    orientation='h',
+                    color='nodo',
+                    color_discrete_sequence=px.colors.qualitative.Set2
+                )
+                fig.update_layout(height=400, showlegend=False)
+                st.plotly_chart(fig, use_container_width=True)
+        
+        with col_n2:
+            with st.container(border=True):
+                st.subheader("📈 Distribución Porcentual")
+                fig = px.pie(
+                    df_nodos, 
+                    values='expedientes', 
+                    names='nodo', 
+                    hole=0.4,
+                    color_discrete_sequence=px.colors.qualitative.Set2
+                )
+                fig.update_layout(height=400)
+                st.plotly_chart(fig, use_container_width=True)
+        
+        st.markdown("---")
+        
+        # Tabla resumen
+        with st.container(border=True):
+            st.subheader("📋 Resumen por Nodo")
+            df_nodos_display = df_nodos.copy()
+            df_nodos_display['porcentaje'] = (df_nodos_display['expedientes'] / df_nodos_display['expedientes'].sum() * 100).round(1)
+            df_nodos_display = df_nodos_display.sort_values('expedientes', ascending=False)
+            df_nodos_display.columns = ['Nodo', 'Expedientes', '% del Total']
+            st.dataframe(df_nodos_display, use_container_width=True, hide_index=True)
+    else:
+        st.warning("No hay datos de nodos disponibles. Ejecuta el proceso de cruce SOA primero.")
 
 # Footer
+st.markdown("---")
 st.caption("Dashboard generado automáticamente | Datos sin registros de prueba")
+
 
