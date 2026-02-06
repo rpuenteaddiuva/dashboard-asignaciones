@@ -25,33 +25,51 @@ df = load_data()
 st.title("📊 Dashboard de Asignaciones por País")
 st.markdown("---")
 
-# Sidebar - Filtros
+# Sidebar - Filtros mejorados con UX
 with st.sidebar:
+    st.image("https://img.icons8.com/color/96/analytics.png", width=60)
     st.header("🔍 Filtros")
+    st.caption("Selecciona los filtros y presiona Aplicar")
     
-    # Filtro de país
-    paises = sorted(df['pais'].unique())
-    pais_seleccionado = st.multiselect(
-        "País",
-        options=paises,
-        default=paises
-    )
+    with st.form("filtros_form"):
+        # Filtro de año (primero, más importante)
+        años = sorted(df['año'].unique(), reverse=True)
+        año_seleccionado = st.multiselect(
+            "📅 Año",
+            options=años,
+            default=[max(años)],
+            help="Selecciona uno o más años"
+        )
+        
+        # Filtro de país con selectbox "Todos" o específicos
+        paises = sorted(df['pais'].unique())
+        todos_paises = st.checkbox("🌎 Todos los países", value=True)
+        
+        if not todos_paises:
+            pais_seleccionado = st.multiselect(
+                "País",
+                options=paises,
+                default=paises[:5],
+                help="Selecciona países específicos"
+            )
+        else:
+            pais_seleccionado = paises
+        
+        # Filtros avanzados en expander
+        with st.expander("⚙️ Filtros Avanzados"):
+            tipos = sorted(df['tipo_asignacion'].unique())
+            tipo_seleccionado = st.multiselect(
+                "Tipo de Asignación",
+                options=tipos,
+                default=tipos
+            )
+        
+        # Botón de aplicar
+        submitted = st.form_submit_button("✅ Aplicar Filtros", use_container_width=True, type="primary")
     
-    # Filtro de año
-    años = sorted(df['año'].unique())
-    año_seleccionado = st.multiselect(
-        "Año",
-        options=años,
-        default=[max(años)]
-    )
-    
-    # Filtro de tipo de asignación
-    tipos = sorted(df['tipo_asignacion'].unique())
-    tipo_seleccionado = st.multiselect(
-        "Tipo de Asignación",
-        options=tipos,
-        default=tipos
-    )
+    # Métricas rápidas en sidebar
+    st.markdown("---")
+    st.caption("📊 Resumen rápido")
 
 # Aplicar filtros
 df_filtrado = df[
