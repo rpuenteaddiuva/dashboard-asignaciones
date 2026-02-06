@@ -19,7 +19,15 @@ def load_data():
     df['año'] = df['fecha'].dt.year
     return df
 
+@st.cache_data
+def load_nodos():
+    nodos_path = Path(__file__).parent / "data" / "nodos_resumen.csv"
+    if nodos_path.exists():
+        return pd.read_csv(nodos_path)
+    return None
+
 df = load_data()
+df_nodos = load_nodos()
 
 # Título
 st.title("📊 Dashboard de Asignaciones por País")
@@ -185,6 +193,53 @@ with st.container(border=True):
     
     st.dataframe(df_pivot, use_container_width=True, hide_index=True)
 
-# Footer
 st.markdown("---")
+
+# Sección de Nodos (Call Centers)
+if df_nodos is not None:
+    st.header("📞 Distribución por Nodos (Call Centers)")
+    st.caption("Los nodos son los call centers que atienden a los diferentes países")
+    
+    col_n1, col_n2 = st.columns(2)
+    
+    with col_n1:
+        with st.container(border=True):
+            st.subheader("🏢 Expedientes por Nodo")
+            fig = px.bar(
+                df_nodos.sort_values('expedientes', ascending=True), 
+                x='expedientes', 
+                y='nodo', 
+                orientation='h',
+                color='nodo',
+                color_discrete_sequence=px.colors.qualitative.Set2
+            )
+            fig.update_layout(height=400, showlegend=False)
+            st.plotly_chart(fig, use_container_width=True)
+    
+    with col_n2:
+        with st.container(border=True):
+            st.subheader("📊 Distribución Porcentual")
+            fig = px.pie(
+                df_nodos, 
+                values='expedientes', 
+                names='nodo', 
+                hole=0.4,
+                color_discrete_sequence=px.colors.qualitative.Set2
+            )
+            fig.update_layout(height=400)
+            st.plotly_chart(fig, use_container_width=True)
+    
+    # KPIs de nodos
+    with st.container(border=True):
+        st.subheader("📈 Resumen por Nodo")
+        st.dataframe(
+            df_nodos.sort_values('expedientes', ascending=False),
+            use_container_width=True,
+            hide_index=True
+        )
+    
+    st.markdown("---")
+
+# Footer
 st.caption("Dashboard generado automáticamente | Datos sin registros de prueba")
+
