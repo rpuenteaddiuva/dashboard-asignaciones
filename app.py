@@ -285,14 +285,25 @@ with tab_asig:
         chart_layout(fig, title='Estado de Servicios')
         st.plotly_chart(fig, use_container_width=True)
 
-    # Tipo asignación (pie)
+    # Tipo asignación (pie) — group small segments to avoid label overlap
     with c8:
         df_tipo = dff.groupby('tipo_asignacion', as_index=False)['servicios'].sum() \
-                     .sort_values('servicios', ascending=False).head(8)
+                     .sort_values('servicios', ascending=False)
+        top_n = 5
+        if len(df_tipo) > top_n:
+            top = df_tipo.head(top_n)
+            otros = pd.DataFrame([{
+                'tipo_asignacion': 'OTROS',
+                'servicios': df_tipo.iloc[top_n:]['servicios'].sum()
+            }])
+            df_tipo = pd.concat([top, otros], ignore_index=True)
         fig = px.pie(df_tipo, values='servicios', names='tipo_asignacion', hole=0.45,
                      color_discrete_sequence=PALETTE)
-        fig.update_traces(textinfo='percent+label', textfont_size=11)
+        fig.update_traces(textinfo='percent', textfont_size=11,
+                          textposition='inside')
         chart_layout(fig, title='Tipo de Asignación')
+        fig.update_layout(legend=dict(font=dict(size=10), orientation='v',
+                                       y=0.5, x=1.02))
         st.plotly_chart(fig, use_container_width=True)
 
     # App vs Manual (bar)
