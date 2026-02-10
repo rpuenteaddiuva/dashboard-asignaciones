@@ -1,0 +1,1592 @@
+nodo,pais_asistencia,mes,estado,servicios,expedientes
+Argentina,Argentina,2023-07,CANCELADA,59,41
+Argentina,Argentina,2023-07,CONCLUIDA,128,84
+Argentina,Argentina,2023-08,CANCELADA,14,12
+Argentina,Argentina,2023-08,CONCLUIDA,21,19
+Argentina,Argentina,2023-09,CANCELADA,91,51
+Argentina,Argentina,2023-09,CONCLUIDA,93,68
+Argentina,Argentina,2023-10,CANCELADA,389,117
+Argentina,Argentina,2023-10,CONCLUIDA,197,160
+Argentina,Argentina,2023-11,CANCELADA,832,700
+Argentina,Argentina,2023-11,CONCLUIDA,1874,1818
+Argentina,Argentina,2023-12,CANCELADA,1150,892
+Argentina,Argentina,2023-12,CONCLUIDA,1978,1934
+Argentina,Argentina,2024-01,CANCELADA,845,757
+Argentina,Argentina,2024-01,CONCLUIDA,2031,1998
+Argentina,Argentina,2024-02,CANCELADA,639,576
+Argentina,Argentina,2024-02,CONCLUIDA,1761,1724
+Argentina,Argentina,2024-03,CANCELADA,528,456
+Argentina,Argentina,2024-03,CONCLUIDA,1886,1840
+Argentina,Argentina,2024-04,CANCELADA,463,381
+Argentina,Argentina,2024-04,CONCLUIDA,1798,1774
+Argentina,Argentina,2024-05,CANCELADA,243,226
+Argentina,Argentina,2024-05,CONCLUIDA,1315,1285
+Argentina,Argentina,2024-06,CANCELADA,196,171
+Argentina,Argentina,2024-06,CONCLUIDA,1037,1025
+Argentina,Argentina,2024-07,CANCELADA,256,242
+Argentina,Argentina,2024-07,CONCLUIDA,1293,1264
+Argentina,Argentina,2024-08,CANCELADA,260,212
+Argentina,Argentina,2024-08,CONCLUIDA,1131,1111
+Argentina,Argentina,2024-09,CANCELADA,230,213
+Argentina,Argentina,2024-09,CONCLUIDA,1101,1083
+Argentina,Argentina,2024-10,CANCELADA,239,225
+Argentina,Argentina,2024-10,CONCLUIDA,1103,1078
+Argentina,Argentina,2024-11,CANCELADA,496,482
+Argentina,Argentina,2024-11,CONCLUIDA,1103,1068
+Argentina,Argentina,2024-12,CANCELADA,741,722
+Argentina,Argentina,2024-12,CONCLUIDA,1183,1149
+Argentina,Argentina,2025-01,CANCELADA,777,730
+Argentina,Argentina,2025-01,CONCLUIDA,1414,1388
+Argentina,Argentina,2025-02,CANCELADA,865,826
+Argentina,Argentina,2025-02,CONCLUIDA,1359,1322
+Argentina,Argentina,2025-03,CANCELADA,1032,950
+Argentina,Argentina,2025-03,CONCLUIDA,1591,1553
+Argentina,Argentina,2025-04,CANCELADA,660,611
+Argentina,Argentina,2025-04,CONCLUIDA,1591,1555
+Argentina,Argentina,2025-05,CANCELADA,31,30
+Argentina,Argentina,2025-05,CONCLUIDA,113,111
+Argentina,Argentina,2025-06,CANCELADA,22,20
+Argentina,Argentina,2025-06,CONCLUIDA,48,47
+Argentina,Argentina,2025-07,CANCELADA,4,4
+Argentina,Argentina,2025-07,CONCLUIDA,12,12
+Argentina,Argentina,2025-08,CONCLUIDA,5,5
+Argentina,Argentina,2025-09,CANCELADA,1,1
+Argentina,Argentina,2025-10,CANCELADA,16,2
+Argentina,Argentina,2025-10,CONCLUIDA,2,2
+Argentina,Bolivia,2023-11,CANCELADA,159,135
+Argentina,Bolivia,2023-11,CONCLUIDA,822,756
+Argentina,Bolivia,2023-12,CANCELADA,195,168
+Argentina,Bolivia,2023-12,CONCLUIDA,1160,1045
+Argentina,Bolivia,2024-01,CANCELADA,424,337
+Argentina,Bolivia,2024-01,CONCLUIDA,1637,1477
+Argentina,Bolivia,2024-02,CANCELADA,339,256
+Argentina,Bolivia,2024-02,CONCLUIDA,1685,1512
+Argentina,Bolivia,2024-03,CANCELADA,525,402
+Argentina,Bolivia,2024-03,CONCLUIDA,1732,1538
+Argentina,Bolivia,2024-04,CANCELADA,356,315
+Argentina,Bolivia,2024-04,CONCLUIDA,1736,1551
+Argentina,Bolivia,2024-05,CANCELADA,376,338
+Argentina,Bolivia,2024-05,CONCLUIDA,1720,1568
+Argentina,Bolivia,2024-06,CANCELADA,346,311
+Argentina,Bolivia,2024-06,CONCLUIDA,1704,1530
+Argentina,Bolivia,2024-07,CANCELADA,346,300
+Argentina,Bolivia,2024-07,CONCLUIDA,1748,1558
+Argentina,Bolivia,2024-08,CANCELADA,320,289
+Argentina,Bolivia,2024-08,CONCLUIDA,1702,1541
+Argentina,Bolivia,2024-09,CANCELADA,385,343
+Argentina,Bolivia,2024-09,CONCLUIDA,1636,1453
+Argentina,Bolivia,2024-10,CANCELADA,485,435
+Argentina,Bolivia,2024-10,CONCLUIDA,1782,1603
+Argentina,Bolivia,2024-11,CANCELADA,544,505
+Argentina,Bolivia,2024-11,CONCLUIDA,1736,1543
+Argentina,Bolivia,2024-12,CANCELADA,485,425
+Argentina,Bolivia,2024-12,CONCLUIDA,1691,1489
+Argentina,Bolivia,2025-01,CANCELADA,501,407
+Argentina,Bolivia,2025-01,CONCLUIDA,1708,1501
+Argentina,Bolivia,2025-02,CANCELADA,406,345
+Argentina,Bolivia,2025-02,CONCLUIDA,1597,1402
+Argentina,Bolivia,2025-03,CANCELADA,387,345
+Argentina,Bolivia,2025-03,CONCLUIDA,1558,1386
+Argentina,Bolivia,2025-04,CANCELADA,443,397
+Argentina,Bolivia,2025-04,CONCLUIDA,1445,1278
+Argentina,Bolivia,2025-05,CANCELADA,425,383
+Argentina,Bolivia,2025-05,CONCLUIDA,1519,1367
+Argentina,Bolivia,2025-06,CANCELADA,414,370
+Argentina,Bolivia,2025-06,CONCLUIDA,1325,1184
+Argentina,Bolivia,2025-07,CANCELADA,461,369
+Argentina,Bolivia,2025-07,CONCLUIDA,1152,1016
+Argentina,Bolivia,2025-08,CANCELADA,319,268
+Argentina,Bolivia,2025-08,CONCLUIDA,923,833
+Argentina,Bolivia,2025-09,CANCELADA,128,87
+Argentina,Bolivia,2025-09,CONCLUIDA,279,242
+Argentina,Bolivia,2025-09,PROCESO,1,1
+Argentina,Bolivia,2025-10,CANCELADA,1,1
+Argentina,Bolivia,2025-10,CONCLUIDA,14,12
+Argentina,Chile,2023-09,CANCELADA,10,1
+Argentina,Chile,2023-10,CANCELADA,578,485
+Argentina,Chile,2023-10,CONCLUIDA,353,265
+Argentina,Chile,2023-11,CANCELADA,678,532
+Argentina,Chile,2023-11,CONCLUIDA,507,414
+Argentina,Chile,2023-12,CANCELADA,919,742
+Argentina,Chile,2023-12,CONCLUIDA,725,575
+Argentina,Chile,2024-01,CANCELADA,1011,862
+Argentina,Chile,2024-01,CONCLUIDA,766,617
+Argentina,Chile,2024-02,CANCELADA,932,802
+Argentina,Chile,2024-02,CONCLUIDA,684,528
+Argentina,Chile,2024-03,CANCELADA,1092,905
+Argentina,Chile,2024-03,CONCLUIDA,767,601
+Argentina,Chile,2024-04,CANCELADA,1246,1004
+Argentina,Chile,2024-04,CONCLUIDA,847,650
+Argentina,Chile,2024-05,CANCELADA,1319,1063
+Argentina,Chile,2024-05,CONCLUIDA,889,708
+Argentina,Chile,2024-06,CANCELADA,1238,1034
+Argentina,Chile,2024-06,CONCLUIDA,761,606
+Argentina,Chile,2024-07,CANCELADA,1324,1131
+Argentina,Chile,2024-07,CONCLUIDA,830,690
+Argentina,Chile,2024-08,CANCELADA,1177,984
+Argentina,Chile,2024-08,CONCLUIDA,847,680
+Argentina,Chile,2024-09,CANCELADA,1078,916
+Argentina,Chile,2024-09,CONCLUIDA,637,534
+Argentina,Chile,2024-10,CANCELADA,1098,949
+Argentina,Chile,2024-10,CONCLUIDA,747,627
+Argentina,Chile,2024-11,CANCELADA,963,845
+Argentina,Chile,2024-11,CONCLUIDA,610,491
+Argentina,Chile,2024-12,CANCELADA,1155,970
+Argentina,Chile,2024-12,CONCLUIDA,639,491
+Argentina,Chile,2025-01,CANCELADA,1250,1055
+Argentina,Chile,2025-01,CONCLUIDA,714,589
+Argentina,Chile,2025-02,CANCELADA,1111,960
+Argentina,Chile,2025-02,CONCLUIDA,591,488
+Argentina,Chile,2025-03,CANCELADA,1032,918
+Argentina,Chile,2025-03,CONCLUIDA,615,519
+Argentina,Chile,2025-04,CANCELADA,1015,922
+Argentina,Chile,2025-04,CONCLUIDA,488,437
+Argentina,Chile,2025-04,PROCESO,1,1
+Argentina,Chile,2025-05,CANCELADA,971,857
+Argentina,Chile,2025-05,CONCLUIDA,511,427
+Argentina,Chile,2025-05,PROCESO,1,1
+Argentina,Chile,2025-06,CANCELADA,1148,996
+Argentina,Chile,2025-06,CONCLUIDA,542,448
+Argentina,Chile,2025-07,CANCELADA,1252,1089
+Argentina,Chile,2025-07,CONCLUIDA,594,489
+Argentina,Chile,2025-07,PROCESO,1,1
+Argentina,Chile,2025-08,CANCELADA,957,816
+Argentina,Chile,2025-08,CONCLUIDA,539,435
+Argentina,Chile,2025-08,PROCESO,17,16
+Argentina,Chile,2025-09,CANCELADA,831,687
+Argentina,Chile,2025-09,CONCLUIDA,578,457
+Argentina,Chile,2025-09,PROCESO,36,35
+Argentina,Chile,2025-10,CANCELADA,665,531
+Argentina,Chile,2025-10,CONCLUIDA,439,353
+Argentina,Chile,2025-10,PROCESO,263,233
+Argentina,Colombia,2024-11,CANCELADA,1,1
+Argentina,Colombia,2025-07,CONCLUIDA,1,1
+Argentina,Colombia,2025-08,CONCLUIDA,1,1
+Argentina,Colombia,2025-09,CANCELADA,41,2
+Argentina,Colombia,2025-09,CONCLUIDA,29,28
+Argentina,Colombia,2025-09,PROCESO,19,4
+Argentina,Colombia,2025-10,CONCLUIDA,14,14
+Argentina,Colombia,2025-10,PROCESO,1,1
+Argentina,Costa Rica,2023-03,CANCELADA,165,126
+Argentina,Costa Rica,2023-03,CONCLUIDA,105,81
+Argentina,Costa Rica,2023-04,CANCELADA,2318,1639
+Argentina,Costa Rica,2023-04,CONCLUIDA,2917,2096
+Argentina,Costa Rica,2023-05,CANCELADA,2430,1774
+Argentina,Costa Rica,2023-05,CONCLUIDA,4347,3335
+Argentina,Costa Rica,2023-06,CANCELADA,1958,1488
+Argentina,Costa Rica,2023-06,CONCLUIDA,3920,3120
+Argentina,Costa Rica,2023-07,CANCELADA,2124,1591
+Argentina,Costa Rica,2023-07,CONCLUIDA,3573,2913
+Argentina,Costa Rica,2023-08,CANCELADA,2167,1607
+Argentina,Costa Rica,2023-08,CONCLUIDA,4366,3489
+Argentina,Costa Rica,2023-09,CANCELADA,1877,1448
+Argentina,Costa Rica,2023-09,CONCLUIDA,4267,3324
+Argentina,Costa Rica,2023-10,CANCELADA,2227,1658
+Argentina,Costa Rica,2023-10,CONCLUIDA,4422,3561
+Argentina,Costa Rica,2023-11,CANCELADA,1651,1324
+Argentina,Costa Rica,2023-11,CONCLUIDA,3554,2846
+Argentina,Costa Rica,2023-12,CANCELADA,42,40
+Argentina,Costa Rica,2023-12,CONCLUIDA,99,68
+Argentina,Costa Rica,2024-01,CANCELADA,1,1
+Argentina,Costa Rica,2024-01,CONCLUIDA,1,1
+Argentina,Costa Rica,2024-09,CONCLUIDA,1,1
+Argentina,Costa Rica,2025-02,CANCELADA,1,1
+Argentina,Dominicana,2023-01,CANCELADA,786,633
+Argentina,Dominicana,2023-01,CONCLUIDA,1841,1730
+Argentina,Dominicana,2023-02,CANCELADA,769,653
+Argentina,Dominicana,2023-02,CONCLUIDA,1950,1820
+Argentina,Dominicana,2023-03,CANCELADA,906,721
+Argentina,Dominicana,2023-03,CONCLUIDA,2341,2087
+Argentina,Dominicana,2023-04,CANCELADA,842,737
+Argentina,Dominicana,2023-04,CONCLUIDA,2149,2022
+Argentina,Dominicana,2023-05,CANCELADA,1008,838
+Argentina,Dominicana,2023-05,CONCLUIDA,2588,2416
+Argentina,Dominicana,2023-06,CANCELADA,930,827
+Argentina,Dominicana,2023-06,CONCLUIDA,2426,2324
+Argentina,Dominicana,2023-07,CANCELADA,955,795
+Argentina,Dominicana,2023-07,CONCLUIDA,2552,2405
+Argentina,Dominicana,2023-08,CANCELADA,1136,946
+Argentina,Dominicana,2023-08,CONCLUIDA,2669,2520
+Argentina,Dominicana,2023-09,CANCELADA,992,845
+Argentina,Dominicana,2023-09,CONCLUIDA,2594,2470
+Argentina,Dominicana,2023-10,CANCELADA,1018,845
+Argentina,Dominicana,2023-10,CONCLUIDA,2604,2426
+Argentina,Dominicana,2023-11,CANCELADA,1427,1204
+Argentina,Dominicana,2023-11,CONCLUIDA,2705,2442
+Argentina,Dominicana,2023-12,CANCELADA,1084,910
+Argentina,Dominicana,2023-12,CONCLUIDA,2679,2358
+Argentina,Dominicana,2024-01,CANCELADA,6,4
+Argentina,Dominicana,2024-02,CANCELADA,8,4
+Argentina,Dominicana,2024-02,CONCLUIDA,2,1
+Argentina,Dominicana,2024-10,CONCLUIDA,1,1
+Argentina,Dominicana,2025-09,CANCELADA,1,1
+Argentina,Ecuador,2023-11,CANCELADA,70,62
+Argentina,Ecuador,2023-11,CONCLUIDA,132,113
+Argentina,Ecuador,2023-12,CANCELADA,18,6
+Argentina,Ecuador,2023-12,CONCLUIDA,38,32
+Argentina,Ecuador,2024-01,CANCELADA,14,12
+Argentina,Ecuador,2024-01,CONCLUIDA,53,39
+Argentina,Ecuador,2024-02,CANCELADA,137,102
+Argentina,Ecuador,2024-02,CONCLUIDA,304,225
+Argentina,Ecuador,2024-03,CANCELADA,181,130
+Argentina,Ecuador,2024-03,CONCLUIDA,353,256
+Argentina,Ecuador,2024-04,CANCELADA,133,108
+Argentina,Ecuador,2024-04,CONCLUIDA,410,314
+Argentina,Ecuador,2024-05,CANCELADA,58,44
+Argentina,Ecuador,2024-05,CONCLUIDA,219,178
+Argentina,Ecuador,2024-06,CANCELADA,2,2
+Argentina,Ecuador,2024-06,CONCLUIDA,60,54
+Argentina,Ecuador,2024-07,CANCELADA,179,145
+Argentina,Ecuador,2024-07,CONCLUIDA,363,270
+Argentina,Ecuador,2024-08,CANCELADA,159,140
+Argentina,Ecuador,2024-08,CONCLUIDA,457,326
+Argentina,Ecuador,2024-09,CANCELADA,126,112
+Argentina,Ecuador,2024-09,CONCLUIDA,410,327
+Argentina,Ecuador,2024-10,CANCELADA,124,110
+Argentina,Ecuador,2024-10,CONCLUIDA,381,309
+Argentina,Ecuador,2024-11,CANCELADA,116,101
+Argentina,Ecuador,2024-11,CONCLUIDA,398,319
+Argentina,Ecuador,2024-12,CANCELADA,121,112
+Argentina,Ecuador,2024-12,CONCLUIDA,368,290
+Argentina,Ecuador,2025-01,CANCELADA,126,112
+Argentina,Ecuador,2025-01,CONCLUIDA,429,334
+Argentina,Ecuador,2025-02,CANCELADA,126,110
+Argentina,Ecuador,2025-02,CONCLUIDA,415,330
+Argentina,Ecuador,2025-03,CANCELADA,123,111
+Argentina,Ecuador,2025-03,CONCLUIDA,392,304
+Argentina,Ecuador,2025-04,CANCELADA,126,120
+Argentina,Ecuador,2025-04,CONCLUIDA,457,375
+Argentina,Ecuador,2025-05,CANCELADA,163,142
+Argentina,Ecuador,2025-05,CONCLUIDA,454,368
+Argentina,Ecuador,2025-06,CANCELADA,172,143
+Argentina,Ecuador,2025-06,CONCLUIDA,435,363
+Argentina,Ecuador,2025-07,CANCELADA,197,173
+Argentina,Ecuador,2025-07,CONCLUIDA,492,411
+Argentina,Ecuador,2025-08,CANCELADA,216,182
+Argentina,Ecuador,2025-08,CONCLUIDA,527,439
+Argentina,Ecuador,2025-09,CANCELADA,228,164
+Argentina,Ecuador,2025-09,CONCLUIDA,557,455
+Argentina,Ecuador,2025-09,PROCESO,7,5
+Argentina,Ecuador,2025-10,CANCELADA,137,118
+Argentina,Ecuador,2025-10,CONCLUIDA,394,339
+Argentina,Ecuador,2025-10,PROCESO,77,66
+Argentina,Egipto,2023-01,OTRO,149,120
+Argentina,Egipto,2023-09,OTRO,2,2
+Argentina,Egipto,2023-10,OTRO,7,1
+Argentina,Egipto,2023-12,OTRO,1,1
+Argentina,Egipto,2024-03,OTRO,3,2
+Argentina,Egipto,2024-04,OTRO,6,1
+Argentina,Egipto,2024-08,OTRO,6,1
+Argentina,Egipto,2024-09,OTRO,12,3
+Argentina,Egipto,2024-11,OTRO,1,1
+Argentina,Egipto,2025-02,OTRO,11,3
+Argentina,Egipto,2025-03,OTRO,7,1
+Argentina,Egipto,2025-05,OTRO,9,3
+Argentina,Egipto,2025-07,OTRO,3,3
+Argentina,Egipto,2025-08,OTRO,1,1
+Argentina,Egipto,2025-09,OTRO,6,2
+Argentina,El Salvador,2023-02,CANCELADA,2,2
+Argentina,El Salvador,2023-03,CANCELADA,1,1
+Argentina,El Salvador,2023-03,CONCLUIDA,2,2
+Argentina,El Salvador,2023-05,CONCLUIDA,2,2
+Argentina,El Salvador,2023-06,CANCELADA,7,6
+Argentina,El Salvador,2023-06,CONCLUIDA,5,4
+Argentina,El Salvador,2023-07,CANCELADA,2,2
+Argentina,El Salvador,2023-07,CONCLUIDA,1,1
+Argentina,El Salvador,2023-08,CANCELADA,2,2
+Argentina,El Salvador,2023-08,CONCLUIDA,4,4
+Argentina,El Salvador,2023-09,CANCELADA,4,4
+Argentina,El Salvador,2023-09,CONCLUIDA,3,3
+Argentina,El Salvador,2023-10,CANCELADA,11,9
+Argentina,El Salvador,2023-10,CONCLUIDA,3,3
+Argentina,El Salvador,2023-11,CANCELADA,12,11
+Argentina,El Salvador,2023-11,CONCLUIDA,6,6
+Argentina,El Salvador,2023-12,CANCELADA,9,8
+Argentina,El Salvador,2023-12,CONCLUIDA,10,10
+Argentina,El Salvador,2025-08,CONCLUIDA,1,1
+Argentina,El Salvador,2025-09,CANCELADA,14,10
+Argentina,El Salvador,2025-09,CONCLUIDA,24,23
+Argentina,El Salvador,2025-10,CANCELADA,71,30
+Argentina,El Salvador,2025-10,CONCLUIDA,29,26
+Argentina,El Salvador,2025-10,PROCESO,1,1
+Argentina,Estados Unidos,2025-01,OTRO,1,1
+Argentina,Estados Unidos,2025-03,OTRO,1,1
+Argentina,Guatemala,2023-10,CANCELADA,2,1
+Argentina,Guatemala,2024-02,CANCELADA,837,98
+Argentina,Guatemala,2024-02,CONCLUIDA,507,72
+Argentina,Guatemala,2024-03,CANCELADA,103,16
+Argentina,Guatemala,2024-03,CONCLUIDA,64,12
+Argentina,Guatemala,2024-04,CANCELADA,66,14
+Argentina,Guatemala,2024-04,CONCLUIDA,19,5
+Argentina,Guatemala,2024-05,CANCELADA,126,87
+Argentina,Guatemala,2024-05,CONCLUIDA,27,19
+Argentina,Guatemala,2024-06,CANCELADA,406,144
+Argentina,Guatemala,2024-06,CONCLUIDA,82,38
+Argentina,Guatemala,2024-07,CANCELADA,263,114
+Argentina,Guatemala,2024-07,CONCLUIDA,69,27
+Argentina,Guatemala,2024-08,CANCELADA,156,73
+Argentina,Guatemala,2024-08,CONCLUIDA,48,16
+Argentina,Guatemala,2024-09,CANCELADA,1374,334
+Argentina,Guatemala,2024-09,CONCLUIDA,445,79
+Argentina,Guatemala,2024-10,CANCELADA,899,178
+Argentina,Guatemala,2024-10,CONCLUIDA,283,43
+Argentina,Guatemala,2025-03,CANCELADA,1,1
+Argentina,Guatemala,2025-05,CANCELADA,33,2
+Argentina,Guatemala,2025-07,CANCELADA,1,1
+Argentina,Honduras,2024-08,CONCLUIDA,1,1
+Argentina,Honduras,2024-12,CANCELADA,1,1
+Argentina,Honduras,2025-02,CONCLUIDA,1,1
+Argentina,Honduras,2025-03,CANCELADA,1,1
+Argentina,Honduras,2025-03,CONCLUIDA,3,3
+Argentina,Honduras,2025-04,CANCELADA,13,13
+Argentina,Honduras,2025-04,CONCLUIDA,22,18
+Argentina,Honduras,2025-05,CANCELADA,67,11
+Argentina,Honduras,2025-05,CONCLUIDA,28,24
+Argentina,Honduras,2025-06,CANCELADA,12,9
+Argentina,Honduras,2025-06,CONCLUIDA,8,7
+Argentina,Honduras,2025-07,CANCELADA,2,2
+Argentina,Honduras,2025-07,CONCLUIDA,3,3
+Argentina,Honduras,2025-08,CANCELADA,4,3
+Argentina,Honduras,2025-08,CONCLUIDA,9,6
+Argentina,Honduras,2025-09,CANCELADA,3,3
+Argentina,Honduras,2025-09,CONCLUIDA,7,7
+Argentina,Honduras,2025-10,CANCELADA,7,7
+Argentina,Honduras,2025-10,CONCLUIDA,1,1
+Argentina,Mexico,2023-02,CANCELADA,2,1
+Argentina,Mexico,2023-04,CANCELADA,61,57
+Argentina,Mexico,2023-04,CONCLUIDA,22,22
+Argentina,Mexico,2023-05,CANCELADA,78,72
+Argentina,Mexico,2023-05,CONCLUIDA,40,39
+Argentina,Mexico,2023-06,CANCELADA,330,313
+Argentina,Mexico,2023-06,CONCLUIDA,159,158
+Argentina,Mexico,2023-07,CANCELADA,441,436
+Argentina,Mexico,2023-07,CONCLUIDA,141,139
+Argentina,Mexico,2023-08,CANCELADA,12,12
+Argentina,Mexico,2023-08,CONCLUIDA,5,5
+Argentina,Mexico,2023-09,CANCELADA,351,345
+Argentina,Mexico,2023-09,CONCLUIDA,139,134
+Argentina,Mexico,2023-10,CANCELADA,752,351
+Argentina,Mexico,2023-10,CONCLUIDA,109,91
+Argentina,Mexico,2023-11,CANCELADA,403,325
+Argentina,Mexico,2023-11,CONCLUIDA,79,74
+Argentina,Mexico,2023-12,CANCELADA,413,365
+Argentina,Mexico,2023-12,CONCLUIDA,76,76
+Argentina,Mexico,2024-01,CANCELADA,377,345
+Argentina,Mexico,2024-01,CONCLUIDA,87,82
+Argentina,Mexico,2024-02,CANCELADA,483,430
+Argentina,Mexico,2024-02,CONCLUIDA,112,109
+Argentina,Mexico,2024-03,CANCELADA,631,513
+Argentina,Mexico,2024-03,CONCLUIDA,112,103
+Argentina,Mexico,2024-04,CANCELADA,616,495
+Argentina,Mexico,2024-04,CONCLUIDA,118,111
+Argentina,Mexico,2024-05,CANCELADA,492,428
+Argentina,Mexico,2024-05,CONCLUIDA,142,132
+Argentina,Mexico,2024-06,CANCELADA,511,417
+Argentina,Mexico,2024-06,CONCLUIDA,157,149
+Argentina,Mexico,2024-07,CANCELADA,570,477
+Argentina,Mexico,2024-07,CONCLUIDA,140,123
+Argentina,Mexico,2024-08,CANCELADA,554,465
+Argentina,Mexico,2024-08,CONCLUIDA,128,119
+Argentina,Mexico,2024-09,CANCELADA,367,236
+Argentina,Mexico,2024-09,CONCLUIDA,122,117
+Argentina,Mexico,2024-10,CANCELADA,204,114
+Argentina,Mexico,2024-10,CONCLUIDA,120,107
+Argentina,Mexico,2024-11,CANCELADA,193,101
+Argentina,Mexico,2024-11,CONCLUIDA,135,120
+Argentina,Mexico,2024-12,CANCELADA,174,111
+Argentina,Mexico,2024-12,CONCLUIDA,157,144
+Argentina,Mexico,2025-01,CANCELADA,208,148
+Argentina,Mexico,2025-01,CONCLUIDA,290,268
+Argentina,Mexico,2025-01,PROCESO,1,1
+Argentina,Mexico,2025-02,CANCELADA,180,117
+Argentina,Mexico,2025-02,CONCLUIDA,205,181
+Argentina,Mexico,2025-03,CANCELADA,333,210
+Argentina,Mexico,2025-03,CONCLUIDA,258,223
+Argentina,Mexico,2025-04,CANCELADA,248,134
+Argentina,Mexico,2025-04,CONCLUIDA,197,173
+Argentina,Mexico,2025-05,CANCELADA,279,152
+Argentina,Mexico,2025-05,CONCLUIDA,223,199
+Argentina,Mexico,2025-06,CANCELADA,265,146
+Argentina,Mexico,2025-06,CONCLUIDA,242,204
+Argentina,Mexico,2025-07,CANCELADA,189,117
+Argentina,Mexico,2025-07,CONCLUIDA,249,194
+Argentina,Mexico,2025-08,CANCELADA,242,154
+Argentina,Mexico,2025-08,CONCLUIDA,255,213
+Argentina,Mexico,2025-09,CANCELADA,254,165
+Argentina,Mexico,2025-09,CONCLUIDA,278,225
+Argentina,Mexico,2025-09,PROCESO,2,2
+Argentina,Mexico,2025-10,CANCELADA,160,114
+Argentina,Mexico,2025-10,CONCLUIDA,161,136
+Argentina,Mexico,2025-10,PROCESO,60,58
+Argentina,Paraguay,2023-12,CANCELADA,3,1
+Argentina,Paraguay,2023-12,CONCLUIDA,1,1
+Argentina,Paraguay,2024-01,CANCELADA,54,46
+Argentina,Paraguay,2024-01,CONCLUIDA,127,123
+Argentina,Paraguay,2024-02,CANCELADA,1,1
+Argentina,Paraguay,2024-02,CONCLUIDA,8,8
+Argentina,Paraguay,2024-03,CANCELADA,4,4
+Argentina,Paraguay,2024-03,CONCLUIDA,11,11
+Argentina,Paraguay,2024-04,CANCELADA,20,20
+Argentina,Paraguay,2024-04,CONCLUIDA,57,57
+Argentina,Paraguay,2024-05,CANCELADA,71,70
+Argentina,Paraguay,2024-05,CONCLUIDA,175,159
+Argentina,Paraguay,2024-06,CANCELADA,49,45
+Argentina,Paraguay,2024-06,CONCLUIDA,161,158
+Argentina,Paraguay,2024-07,CANCELADA,45,41
+Argentina,Paraguay,2024-07,CONCLUIDA,162,158
+Argentina,Paraguay,2024-08,CANCELADA,48,47
+Argentina,Paraguay,2024-08,CONCLUIDA,116,112
+Argentina,Paraguay,2024-09,CANCELADA,70,57
+Argentina,Paraguay,2024-09,CONCLUIDA,135,131
+Argentina,Paraguay,2024-10,CANCELADA,32,28
+Argentina,Paraguay,2024-10,CONCLUIDA,39,38
+Argentina,Paraguay,2025-02,CANCELADA,2,1
+Argentina,Paraguay,2025-07,CANCELADA,3,2
+Argentina,Peru,2023-12,CANCELADA,1,1
+Argentina,Peru,2023-12,CONCLUIDA,1,1
+Argentina,Peru,2024-01,CANCELADA,50,46
+Argentina,Peru,2024-01,CONCLUIDA,87,80
+Argentina,Peru,2024-02,CANCELADA,25,23
+Argentina,Peru,2024-02,CONCLUIDA,44,38
+Argentina,Peru,2024-03,CANCELADA,89,81
+Argentina,Peru,2024-03,CONCLUIDA,82,73
+Argentina,Peru,2024-04,CANCELADA,460,354
+Argentina,Peru,2024-04,CONCLUIDA,127,119
+Argentina,Peru,2024-05,CANCELADA,175,164
+Argentina,Peru,2024-05,CONCLUIDA,177,165
+Argentina,Peru,2024-06,CANCELADA,71,63
+Argentina,Peru,2024-06,CONCLUIDA,101,93
+Argentina,Peru,2024-08,CONCLUIDA,1,1
+Argentina,Peru,2024-09,CANCELADA,37,35
+Argentina,Peru,2024-09,CONCLUIDA,114,96
+Argentina,Peru,2024-10,CANCELADA,92,85
+Argentina,Peru,2024-10,CONCLUIDA,217,189
+Argentina,Peru,2024-11,CANCELADA,97,89
+Argentina,Peru,2024-11,CONCLUIDA,175,151
+Argentina,Peru,2024-12,CANCELADA,81,77
+Argentina,Peru,2024-12,CONCLUIDA,209,178
+Argentina,Peru,2025-01,CANCELADA,87,84
+Argentina,Peru,2025-01,CONCLUIDA,184,177
+Argentina,Peru,2025-02,CANCELADA,76,70
+Argentina,Peru,2025-02,CONCLUIDA,182,157
+Argentina,Peru,2025-03,CANCELADA,71,70
+Argentina,Peru,2025-03,CONCLUIDA,163,153
+Argentina,Peru,2025-04,CANCELADA,66,66
+Argentina,Peru,2025-04,CONCLUIDA,188,171
+Argentina,Peru,2025-05,CANCELADA,72,66
+Argentina,Peru,2025-05,CONCLUIDA,165,127
+Argentina,Peru,2025-06,CANCELADA,60,50
+Argentina,Peru,2025-06,CONCLUIDA,132,117
+Argentina,Peru,2025-07,CANCELADA,59,54
+Argentina,Peru,2025-07,CONCLUIDA,128,108
+Argentina,Peru,2025-08,CANCELADA,68,58
+Argentina,Peru,2025-08,CONCLUIDA,161,117
+Argentina,Peru,2025-09,CANCELADA,68,51
+Argentina,Peru,2025-09,CONCLUIDA,154,130
+Argentina,Peru,2025-10,CANCELADA,57,52
+Argentina,Peru,2025-10,CONCLUIDA,102,86
+Argentina,Peru,2025-10,PROCESO,29,27
+Argentina,Puerto Rico,2023-01,CANCELADA,2,2
+Argentina,Puerto Rico,2024-06,CANCELADA,1,1
+Argentina,Puerto Rico,2024-06,CONCLUIDA,1,1
+Argentina,Puerto Rico,2024-09,CANCELADA,1,1
+Argentina,Puerto Rico,2024-10,CANCELADA,1,1
+Argentina,Puerto Rico,2024-11,CANCELADA,1,1
+Argentina,Puerto Rico,2025-01,CANCELADA,1,1
+Argentina,Puerto Rico,2025-02,CANCELADA,1,1
+Argentina,Uruguay,2023-10,CANCELADA,80,60
+Argentina,Uruguay,2023-10,CONCLUIDA,170,143
+Argentina,Uruguay,2023-11,CANCELADA,300,260
+Argentina,Uruguay,2023-11,CONCLUIDA,732,625
+Argentina,Uruguay,2023-12,CANCELADA,66,59
+Argentina,Uruguay,2023-12,CONCLUIDA,221,170
+Argentina,Uruguay,2024-01,CANCELADA,313,252
+Argentina,Uruguay,2024-01,CONCLUIDA,807,706
+Argentina,Uruguay,2024-02,CANCELADA,347,264
+Argentina,Uruguay,2024-02,CONCLUIDA,770,642
+Argentina,Uruguay,2024-03,CANCELADA,359,263
+Argentina,Uruguay,2024-03,CONCLUIDA,859,692
+Argentina,Uruguay,2024-04,CANCELADA,315,230
+Argentina,Uruguay,2024-04,CONCLUIDA,872,716
+Argentina,Uruguay,2024-05,CANCELADA,350,280
+Argentina,Uruguay,2024-05,CONCLUIDA,974,813
+Argentina,Uruguay,2024-06,CANCELADA,319,274
+Argentina,Uruguay,2024-06,CONCLUIDA,912,774
+Argentina,Uruguay,2024-07,CANCELADA,348,315
+Argentina,Uruguay,2024-07,CONCLUIDA,932,820
+Argentina,Uruguay,2024-08,CANCELADA,327,287
+Argentina,Uruguay,2024-08,CONCLUIDA,790,699
+Argentina,Uruguay,2024-09,CANCELADA,343,317
+Argentina,Uruguay,2024-09,CONCLUIDA,761,679
+Argentina,Uruguay,2024-10,CANCELADA,302,279
+Argentina,Uruguay,2024-10,CONCLUIDA,721,675
+Argentina,Uruguay,2024-11,CANCELADA,323,300
+Argentina,Uruguay,2024-11,CONCLUIDA,665,610
+Argentina,Uruguay,2024-12,CANCELADA,385,353
+Argentina,Uruguay,2024-12,CONCLUIDA,747,684
+Argentina,Uruguay,2025-01,CANCELADA,310,290
+Argentina,Uruguay,2025-01,CONCLUIDA,671,601
+Argentina,Uruguay,2025-02,CANCELADA,298,273
+Argentina,Uruguay,2025-02,CONCLUIDA,636,584
+Argentina,Uruguay,2025-03,CANCELADA,352,325
+Argentina,Uruguay,2025-03,CONCLUIDA,690,621
+Argentina,Uruguay,2025-04,CANCELADA,307,287
+Argentina,Uruguay,2025-04,CONCLUIDA,664,597
+Argentina,Uruguay,2025-05,CANCELADA,295,267
+Argentina,Uruguay,2025-05,CONCLUIDA,644,568
+Argentina,Uruguay,2025-06,CANCELADA,313,269
+Argentina,Uruguay,2025-06,CONCLUIDA,696,620
+Argentina,Uruguay,2025-07,CANCELADA,304,279
+Argentina,Uruguay,2025-07,CONCLUIDA,741,662
+Argentina,Uruguay,2025-08,CANCELADA,278,246
+Argentina,Uruguay,2025-08,CONCLUIDA,662,585
+Argentina,Uruguay,2025-09,CANCELADA,254,229
+Argentina,Uruguay,2025-09,CONCLUIDA,739,652
+Argentina,Uruguay,2025-10,CANCELADA,266,246
+Argentina,Uruguay,2025-10,CONCLUIDA,547,478
+Argentina,Uruguay,2025-10,PROCESO,26,25
+Colombia,Argentina,2023-06,CANCELADA,1,1
+Colombia,Argentina,2023-07,CANCELADA,18,8
+Colombia,Argentina,2023-07,CONCLUIDA,24,18
+Colombia,Argentina,2023-08,CONCLUIDA,2,1
+Colombia,Argentina,2023-09,CANCELADA,3,1
+Colombia,Argentina,2023-10,CANCELADA,1,1
+Colombia,Argentina,2023-10,CONCLUIDA,4,4
+Colombia,Argentina,2023-11,CANCELADA,250,217
+Colombia,Argentina,2023-11,CONCLUIDA,588,555
+Colombia,Argentina,2023-12,CANCELADA,17,13
+Colombia,Argentina,2023-12,CONCLUIDA,38,32
+Colombia,Argentina,2024-01,CANCELADA,2,2
+Colombia,Argentina,2024-01,CONCLUIDA,1,1
+Colombia,Bolivia,2023-10,CANCELADA,2,1
+Colombia,Bolivia,2023-11,CANCELADA,10,8
+Colombia,Bolivia,2023-11,CONCLUIDA,43,42
+Colombia,Bolivia,2023-12,CANCELADA,100,80
+Colombia,Bolivia,2023-12,CONCLUIDA,729,638
+Colombia,Bolivia,2024-01,CANCELADA,23,17
+Colombia,Bolivia,2024-01,CONCLUIDA,89,68
+Colombia,Bolivia,2024-02,CONCLUIDA,13,9
+Colombia,Bolivia,2024-03,CONCLUIDA,3,3
+Colombia,Chile,2023-08,CONCLUIDA,1,1
+Colombia,Chile,2023-09,CANCELADA,3,2
+Colombia,Chile,2023-09,CONCLUIDA,1,1
+Colombia,Chile,2023-10,CANCELADA,36,30
+Colombia,Chile,2023-10,CONCLUIDA,13,10
+Colombia,Chile,2023-11,CANCELADA,485,414
+Colombia,Chile,2023-11,CONCLUIDA,317,270
+Colombia,Chile,2023-12,CANCELADA,50,38
+Colombia,Chile,2023-12,CONCLUIDA,40,31
+Colombia,Chile,2024-01,CANCELADA,20,18
+Colombia,Chile,2024-01,CONCLUIDA,19,18
+Colombia,Chile,2024-02,CANCELADA,6,6
+Colombia,Chile,2024-02,CONCLUIDA,1,1
+Colombia,Chile,2024-03,CANCELADA,1,1
+Colombia,Chile,2024-03,CONCLUIDA,1,1
+Colombia,Colombia,2023-12,CANCELADA,2,2
+Colombia,Colombia,2024-07,CANCELADA,1,1
+Colombia,Colombia,2025-07,CONCLUIDA,3,3
+Colombia,Colombia,2025-08,CONCLUIDA,16,16
+Colombia,Colombia,2025-09,CANCELADA,37,3
+Colombia,Colombia,2025-09,CONCLUIDA,7,6
+Colombia,Costa Rica,2023-03,CANCELADA,20,19
+Colombia,Costa Rica,2023-03,CONCLUIDA,7,7
+Colombia,Costa Rica,2023-04,CANCELADA,430,326
+Colombia,Costa Rica,2023-04,CONCLUIDA,721,476
+Colombia,Costa Rica,2023-05,CANCELADA,6,4
+Colombia,Costa Rica,2023-05,CONCLUIDA,11,11
+Colombia,Dominicana,2023-01,CANCELADA,155,131
+Colombia,Dominicana,2023-01,CONCLUIDA,381,367
+Colombia,Dominicana,2023-02,CANCELADA,6,5
+Colombia,Dominicana,2023-02,CONCLUIDA,15,15
+Colombia,Dominicana,2023-03,CONCLUIDA,2,2
+Colombia,Ecuador,2023-10,CONCLUIDA,3,2
+Colombia,Ecuador,2023-11,CANCELADA,25,19
+Colombia,Ecuador,2023-11,CONCLUIDA,24,13
+Colombia,Ecuador,2023-12,CONCLUIDA,14,6
+Colombia,Ecuador,2024-01,CANCELADA,1,1
+Colombia,Ecuador,2024-01,CONCLUIDA,3,3
+Colombia,Ecuador,2024-02,CANCELADA,6,4
+Colombia,Ecuador,2024-02,CONCLUIDA,4,4
+Colombia,Ecuador,2024-03,CANCELADA,3,2
+Colombia,Ecuador,2024-03,CONCLUIDA,12,11
+Colombia,Ecuador,2024-04,CANCELADA,4,4
+Colombia,Ecuador,2024-04,CONCLUIDA,27,17
+Colombia,Ecuador,2024-05,CANCELADA,127,100
+Colombia,Ecuador,2024-05,CONCLUIDA,216,167
+Colombia,Ecuador,2024-06,CANCELADA,128,105
+Colombia,Ecuador,2024-06,CONCLUIDA,296,242
+Colombia,Ecuador,2024-07,CANCELADA,63,49
+Colombia,Ecuador,2024-07,CONCLUIDA,152,119
+Colombia,Ecuador,2024-08,CANCELADA,15,10
+Colombia,Ecuador,2024-08,CONCLUIDA,77,67
+Colombia,Ecuador,2024-09,CANCELADA,1,1
+Colombia,Ecuador,2024-09,CONCLUIDA,39,36
+Colombia,Ecuador,2024-10,CANCELADA,7,4
+Colombia,Ecuador,2024-10,CONCLUIDA,30,29
+Colombia,Ecuador,2024-11,CANCELADA,8,8
+Colombia,Ecuador,2024-11,CONCLUIDA,23,22
+Colombia,Ecuador,2024-12,CONCLUIDA,17,16
+Colombia,Ecuador,2025-01,CANCELADA,7,7
+Colombia,Ecuador,2025-01,CONCLUIDA,25,19
+Colombia,Ecuador,2025-02,CANCELADA,3,2
+Colombia,Ecuador,2025-02,CONCLUIDA,12,10
+Colombia,Ecuador,2025-03,CANCELADA,4,4
+Colombia,Ecuador,2025-03,CONCLUIDA,7,7
+Colombia,Ecuador,2025-04,CONCLUIDA,6,4
+Colombia,Ecuador,2025-05,CANCELADA,1,1
+Colombia,Ecuador,2025-05,CONCLUIDA,6,4
+Colombia,Ecuador,2025-06,CONCLUIDA,3,3
+Colombia,Ecuador,2025-08,CANCELADA,2,2
+Colombia,Ecuador,2025-08,CONCLUIDA,3,2
+Colombia,Ecuador,2025-09,CONCLUIDA,1,1
+Colombia,Egipto,2023-01,OTRO,2,2
+Colombia,Egipto,2025-08,OTRO,2,1
+Colombia,El Salvador,2023-01,CANCELADA,4,3
+Colombia,El Salvador,2023-01,CONCLUIDA,2,2
+Colombia,El Salvador,2023-11,CANCELADA,1,1
+Colombia,El Salvador,2023-11,CONCLUIDA,1,1
+Colombia,Estados Unidos,2024-12,OTRO,8,2
+Colombia,Estados Unidos,2025-01,OTRO,2,1
+Colombia,Estados Unidos,2025-03,OTRO,4,2
+Colombia,Estados Unidos,2025-05,OTRO,3,1
+Colombia,Estados Unidos,2025-08,OTRO,7,5
+Colombia,Guatemala,2024-01,CANCELADA,2,2
+Colombia,Guatemala,2024-02,CANCELADA,25,12
+Colombia,Guatemala,2024-02,CONCLUIDA,6,3
+Colombia,Guatemala,2024-04,CANCELADA,18,1
+Colombia,Guatemala,2024-04,CONCLUIDA,3,1
+Colombia,Guatemala,2024-06,CANCELADA,17,6
+Colombia,Guatemala,2024-06,CONCLUIDA,6,2
+Colombia,Guatemala,2024-08,CANCELADA,3,2
+Colombia,Guatemala,2024-08,CONCLUIDA,1,1
+Colombia,Guatemala,2024-09,CANCELADA,47,21
+Colombia,Guatemala,2024-09,CONCLUIDA,1,1
+Colombia,Guatemala,2024-10,CANCELADA,164,38
+Colombia,Guatemala,2024-10,CONCLUIDA,35,13
+Colombia,Guatemala,2024-11,CANCELADA,17,3
+Colombia,Guatemala,2024-11,CONCLUIDA,7,1
+Colombia,Honduras,2024-01,CANCELADA,1,1
+Colombia,Honduras,2024-04,CONCLUIDA,1,1
+Colombia,Honduras,2024-07,CONCLUIDA,1,1
+Colombia,Honduras,2024-12,CANCELADA,1,1
+Colombia,Honduras,2025-01,CANCELADA,1,1
+Colombia,Honduras,2025-02,CANCELADA,20,7
+Colombia,Honduras,2025-02,CONCLUIDA,7,7
+Colombia,Honduras,2025-03,CANCELADA,11,3
+Colombia,Honduras,2025-03,CONCLUIDA,5,5
+Colombia,Honduras,2025-08,CANCELADA,1,1
+Colombia,Mexico,2023-02,CANCELADA,3,3
+Colombia,Mexico,2023-04,CANCELADA,20,18
+Colombia,Mexico,2023-04,CONCLUIDA,6,6
+Colombia,Mexico,2023-05,CANCELADA,2,2
+Colombia,Mexico,2023-05,CONCLUIDA,1,1
+Colombia,Mexico,2023-06,CANCELADA,6,6
+Colombia,Mexico,2023-06,CONCLUIDA,4,4
+Colombia,Mexico,2023-07,CANCELADA,28,27
+Colombia,Mexico,2023-07,CONCLUIDA,15,14
+Colombia,Mexico,2023-08,CANCELADA,531,520
+Colombia,Mexico,2023-08,CONCLUIDA,106,106
+Colombia,Mexico,2023-09,CANCELADA,28,27
+Colombia,Mexico,2023-09,CONCLUIDA,7,7
+Colombia,Mexico,2023-10,CANCELADA,38,17
+Colombia,Mexico,2023-10,CONCLUIDA,5,5
+Colombia,Mexico,2023-11,CANCELADA,22,14
+Colombia,Mexico,2023-11,CONCLUIDA,2,2
+Colombia,Mexico,2023-12,CANCELADA,25,21
+Colombia,Mexico,2023-12,CONCLUIDA,8,3
+Colombia,Mexico,2024-01,CANCELADA,14,12
+Colombia,Mexico,2024-01,CONCLUIDA,3,3
+Colombia,Mexico,2024-02,CANCELADA,15,15
+Colombia,Mexico,2024-02,CONCLUIDA,1,1
+Colombia,Mexico,2024-03,CANCELADA,2,2
+Colombia,Mexico,2024-04,CANCELADA,7,4
+Colombia,Mexico,2024-05,CANCELADA,2,2
+Colombia,Mexico,2024-06,CANCELADA,10,3
+Colombia,Mexico,2024-07,CONCLUIDA,2,1
+Colombia,Nicaragua,2023-12,CANCELADA,3,1
+Colombia,Nicaragua,2024-09,CANCELADA,1,1
+Colombia,Paraguay,2023-12,CANCELADA,9,6
+Colombia,Paraguay,2023-12,CONCLUIDA,24,24
+Colombia,Paraguay,2025-10,CANCELADA,3,2
+Colombia,Peru,2023-12,CANCELADA,6,2
+Colombia,Peru,2023-12,CONCLUIDA,8,3
+Colombia,Peru,2024-01,CANCELADA,16,16
+Colombia,Peru,2024-01,CONCLUIDA,15,12
+Colombia,Peru,2024-02,CONCLUIDA,1,1
+Colombia,Peru,2024-03,CONCLUIDA,2,2
+Colombia,Peru,2024-04,CANCELADA,17,13
+Colombia,Peru,2024-04,CONCLUIDA,4,4
+Colombia,Peru,2024-05,CANCELADA,8,8
+Colombia,Peru,2024-05,CONCLUIDA,9,9
+Colombia,Peru,2024-06,CANCELADA,23,22
+Colombia,Peru,2024-06,CONCLUIDA,52,43
+Colombia,Peru,2024-07,CANCELADA,95,89
+Colombia,Peru,2024-07,CONCLUIDA,168,146
+Colombia,Peru,2024-08,CANCELADA,93,78
+Colombia,Peru,2024-08,CONCLUIDA,186,165
+Colombia,Peru,2024-09,CANCELADA,35,32
+Colombia,Peru,2024-09,CONCLUIDA,77,71
+Colombia,Peru,2024-10,CANCELADA,5,4
+Colombia,Peru,2024-10,CONCLUIDA,4,4
+Colombia,Peru,2024-11,CANCELADA,9,9
+Colombia,Peru,2024-11,CONCLUIDA,24,20
+Colombia,Peru,2024-12,CANCELADA,10,9
+Colombia,Peru,2024-12,CONCLUIDA,9,7
+Colombia,Peru,2025-01,CANCELADA,2,2
+Colombia,Peru,2025-01,CONCLUIDA,2,2
+Colombia,Peru,2025-02,CANCELADA,4,3
+Colombia,Peru,2025-02,CONCLUIDA,12,11
+Colombia,Peru,2025-03,CANCELADA,7,7
+Colombia,Peru,2025-03,CONCLUIDA,6,5
+Colombia,Peru,2025-04,CANCELADA,4,4
+Colombia,Peru,2025-04,CONCLUIDA,9,8
+Colombia,Peru,2025-05,CANCELADA,3,3
+Colombia,Peru,2025-05,CONCLUIDA,4,4
+Colombia,Peru,2025-06,CANCELADA,2,2
+Colombia,Peru,2025-06,CONCLUIDA,6,6
+Colombia,Peru,2025-07,CANCELADA,6,5
+Colombia,Peru,2025-07,CONCLUIDA,14,13
+Colombia,Peru,2025-08,CONCLUIDA,3,3
+Colombia,Uruguay,2023-09,CANCELADA,3,1
+Colombia,Uruguay,2023-10,CANCELADA,14,11
+Colombia,Uruguay,2023-10,CONCLUIDA,28,25
+Colombia,Uruguay,2023-11,CANCELADA,22,14
+Colombia,Uruguay,2023-11,CONCLUIDA,24,21
+Colombia,Uruguay,2023-12,CANCELADA,250,208
+Colombia,Uruguay,2023-12,CONCLUIDA,573,480
+Costa Rica,Argentina,2025-04,CONCLUIDA,1,1
+Costa Rica,Argentina,2025-07,CANCELADA,37,13
+Costa Rica,Argentina,2025-07,CONCLUIDA,59,58
+Costa Rica,Argentina,2025-08,CANCELADA,29,29
+Costa Rica,Argentina,2025-08,CONCLUIDA,74,71
+Costa Rica,Argentina,2025-09,CANCELADA,29,28
+Costa Rica,Argentina,2025-09,CONCLUIDA,57,57
+Costa Rica,Argentina,2025-10,CANCELADA,18,17
+Costa Rica,Argentina,2025-10,CONCLUIDA,35,35
+Costa Rica,Argentina,2025-10,PROCESO,4,3
+Costa Rica,Bolivia,2025-08,CANCELADA,1,1
+Costa Rica,Bolivia,2025-08,CONCLUIDA,1,1
+Costa Rica,Chile,2025-10,CONCLUIDA,1,1
+Costa Rica,Costa Rica,2023-11,CANCELADA,5,1
+Costa Rica,Costa Rica,2024-01,CANCELADA,82,66
+Costa Rica,Costa Rica,2024-01,CONCLUIDA,158,120
+Costa Rica,Costa Rica,2024-02,CANCELADA,64,45
+Costa Rica,Costa Rica,2024-02,CONCLUIDA,118,75
+Costa Rica,Costa Rica,2024-03,CANCELADA,36,28
+Costa Rica,Costa Rica,2024-03,CONCLUIDA,77,65
+Costa Rica,Costa Rica,2024-04,CANCELADA,65,53
+Costa Rica,Costa Rica,2024-04,CONCLUIDA,98,79
+Costa Rica,Costa Rica,2024-05,CANCELADA,72,51
+Costa Rica,Costa Rica,2024-05,CONCLUIDA,111,84
+Costa Rica,Costa Rica,2024-06,CANCELADA,16,16
+Costa Rica,Costa Rica,2024-06,CONCLUIDA,56,53
+Costa Rica,Costa Rica,2024-07,CANCELADA,44,39
+Costa Rica,Costa Rica,2024-07,CONCLUIDA,77,58
+Costa Rica,Costa Rica,2024-08,CANCELADA,41,40
+Costa Rica,Costa Rica,2024-08,CONCLUIDA,67,62
+Costa Rica,Costa Rica,2024-09,CANCELADA,120,110
+Costa Rica,Costa Rica,2024-09,CONCLUIDA,229,209
+Costa Rica,Costa Rica,2024-10,CANCELADA,28,27
+Costa Rica,Costa Rica,2024-10,CONCLUIDA,47,39
+Costa Rica,Costa Rica,2024-11,CANCELADA,30,27
+Costa Rica,Costa Rica,2024-11,CONCLUIDA,45,35
+Costa Rica,Costa Rica,2024-12,CANCELADA,22,19
+Costa Rica,Costa Rica,2024-12,CONCLUIDA,37,32
+Costa Rica,Costa Rica,2025-01,CANCELADA,93,86
+Costa Rica,Costa Rica,2025-01,CONCLUIDA,184,155
+Costa Rica,Costa Rica,2025-02,CANCELADA,360,329
+Costa Rica,Costa Rica,2025-02,CONCLUIDA,674,587
+Costa Rica,Costa Rica,2025-03,CANCELADA,1617,1494
+Costa Rica,Costa Rica,2025-03,CONCLUIDA,3371,2858
+Costa Rica,Costa Rica,2025-04,CANCELADA,1394,1285
+Costa Rica,Costa Rica,2025-04,CONCLUIDA,3555,2773
+Costa Rica,Costa Rica,2025-05,CANCELADA,1757,1605
+Costa Rica,Costa Rica,2025-05,CONCLUIDA,3676,3011
+Costa Rica,Costa Rica,2025-06,CANCELADA,1972,1338
+Costa Rica,Costa Rica,2025-06,CONCLUIDA,4722,3151
+Costa Rica,Costa Rica,2025-07,CANCELADA,2192,1416
+Costa Rica,Costa Rica,2025-07,CONCLUIDA,4205,3258
+Costa Rica,Costa Rica,2025-08,CANCELADA,2341,1391
+Costa Rica,Costa Rica,2025-08,CONCLUIDA,4584,3234
+Costa Rica,Costa Rica,2025-09,CANCELADA,37,8
+Costa Rica,Costa Rica,2025-09,CONCLUIDA,59,16
+Costa Rica,Costa Rica,2025-09,PROCESO,1,1
+Costa Rica,Costa Rica,2025-10,CANCELADA,1,1
+Costa Rica,Dominicana,2023-12,CONCLUIDA,1,1
+Costa Rica,Dominicana,2024-02,CANCELADA,21,12
+Costa Rica,Dominicana,2024-02,CONCLUIDA,15,5
+Costa Rica,Dominicana,2024-03,CANCELADA,142,46
+Costa Rica,Dominicana,2024-03,CONCLUIDA,85,24
+Costa Rica,Dominicana,2024-04,CANCELADA,7,6
+Costa Rica,Dominicana,2024-04,CONCLUIDA,12,2
+Costa Rica,Dominicana,2024-05,CANCELADA,10,4
+Costa Rica,Dominicana,2024-05,CONCLUIDA,8,4
+Costa Rica,Dominicana,2024-07,CANCELADA,19,11
+Costa Rica,Dominicana,2024-07,CONCLUIDA,3,2
+Costa Rica,Dominicana,2024-08,CANCELADA,10,8
+Costa Rica,Dominicana,2024-08,CONCLUIDA,4,4
+Costa Rica,Dominicana,2024-09,CANCELADA,6,6
+Costa Rica,Dominicana,2024-09,CONCLUIDA,9,4
+Costa Rica,Dominicana,2024-10,CANCELADA,6,4
+Costa Rica,Dominicana,2024-10,CONCLUIDA,6,4
+Costa Rica,Dominicana,2024-11,CANCELADA,20,8
+Costa Rica,Dominicana,2024-11,CONCLUIDA,26,5
+Costa Rica,Dominicana,2024-12,CANCELADA,39,30
+Costa Rica,Dominicana,2024-12,CONCLUIDA,41,41
+Costa Rica,Dominicana,2025-01,CANCELADA,26,14
+Costa Rica,Dominicana,2025-01,CONCLUIDA,1,1
+Costa Rica,Dominicana,2025-02,CANCELADA,16,11
+Costa Rica,Dominicana,2025-03,CANCELADA,8,6
+Costa Rica,Dominicana,2025-03,CONCLUIDA,2,2
+Costa Rica,Dominicana,2025-04,CANCELADA,5,4
+Costa Rica,Dominicana,2025-04,CONCLUIDA,2,2
+Costa Rica,Dominicana,2025-05,CANCELADA,12,4
+Costa Rica,Dominicana,2025-05,CONCLUIDA,2,2
+Costa Rica,Dominicana,2025-06,CANCELADA,2,1
+Costa Rica,Dominicana,2025-06,CONCLUIDA,1,1
+Costa Rica,Dominicana,2025-07,CANCELADA,13,4
+Costa Rica,Dominicana,2025-08,CANCELADA,2,2
+Costa Rica,Dominicana,2025-08,CONCLUIDA,5,4
+Costa Rica,Dominicana,2025-09,CANCELADA,1239,1105
+Costa Rica,Dominicana,2025-09,CONCLUIDA,2424,2294
+Costa Rica,Dominicana,2025-09,PROCESO,1,1
+Costa Rica,Dominicana,2025-10,CANCELADA,987,891
+Costa Rica,Dominicana,2025-10,CONCLUIDA,1965,1864
+Costa Rica,Dominicana,2025-10,PROCESO,159,154
+Costa Rica,Puerto Rico,2023-01,CANCELADA,680,570
+Costa Rica,Puerto Rico,2023-01,CONCLUIDA,1695,1480
+Costa Rica,Puerto Rico,2023-02,CANCELADA,6767,5760
+Costa Rica,Puerto Rico,2023-02,CONCLUIDA,20298,17535
+Costa Rica,Puerto Rico,2023-03,CANCELADA,327,275
+Costa Rica,Puerto Rico,2023-03,CONCLUIDA,1187,1008
+Costa Rica,Puerto Rico,2023-04,CANCELADA,6,5
+Costa Rica,Puerto Rico,2023-04,CONCLUIDA,15,15
+Costa Rica,Puerto Rico,2023-05,CANCELADA,1,1
+Costa Rica,Puerto Rico,2023-05,CONCLUIDA,4,3
+Guatemala,Argentina,2023-05,CANCELADA,4,2
+Guatemala,Argentina,2023-06,CANCELADA,19,10
+Guatemala,Argentina,2023-06,CONCLUIDA,1,1
+Guatemala,Argentina,2023-07,CANCELADA,59,41
+Guatemala,Argentina,2023-07,CONCLUIDA,55,52
+Guatemala,Argentina,2023-08,CANCELADA,169,115
+Guatemala,Argentina,2023-08,CONCLUIDA,260,218
+Guatemala,Argentina,2023-09,CANCELADA,120,60
+Guatemala,Argentina,2023-09,CONCLUIDA,114,99
+Guatemala,Bolivia,2023-10,CANCELADA,13,8
+Guatemala,Bolivia,2023-10,CONCLUIDA,1,1
+Guatemala,Bolivia,2023-11,CANCELADA,175,98
+Guatemala,Bolivia,2023-11,CONCLUIDA,648,562
+Guatemala,Chile,2023-08,CANCELADA,25,7
+Guatemala,Chile,2023-08,CONCLUIDA,6,5
+Guatemala,Chile,2023-09,CANCELADA,119,32
+Guatemala,Chile,2023-09,CONCLUIDA,83,18
+Guatemala,Chile,2023-10,CANCELADA,534,384
+Guatemala,Chile,2023-10,CONCLUIDA,338,233
+Guatemala,Chile,2023-11,CANCELADA,1,1
+Guatemala,Colombia,2023-11,CANCELADA,1,1
+Guatemala,Colombia,2023-11,CONCLUIDA,3,1
+Guatemala,Colombia,2023-12,CANCELADA,14,10
+Guatemala,Colombia,2023-12,CONCLUIDA,16,4
+Guatemala,Colombia,2024-01,CANCELADA,11,10
+Guatemala,Colombia,2024-02,CANCELADA,1,1
+Guatemala,Colombia,2024-03,CANCELADA,2,2
+Guatemala,Colombia,2024-04,CANCELADA,2,2
+Guatemala,Colombia,2024-05,CANCELADA,3,3
+Guatemala,Colombia,2024-06,CANCELADA,1,1
+Guatemala,Colombia,2024-07,CANCELADA,2,2
+Guatemala,Colombia,2024-08,CANCELADA,2,2
+Guatemala,Colombia,2024-10,CANCELADA,2,2
+Guatemala,Colombia,2024-10,CONCLUIDA,3,1
+Guatemala,Colombia,2024-11,CANCELADA,12,11
+Guatemala,Colombia,2025-01,CANCELADA,7,6
+Guatemala,Colombia,2025-02,CANCELADA,4,3
+Guatemala,Colombia,2025-02,CONCLUIDA,1,1
+Guatemala,Colombia,2025-03,CANCELADA,2,1
+Guatemala,Colombia,2025-04,CANCELADA,1,1
+Guatemala,Colombia,2025-05,CANCELADA,1,1
+Guatemala,Colombia,2025-06,CANCELADA,4,4
+Guatemala,Colombia,2025-06,CONCLUIDA,21,21
+Guatemala,Colombia,2025-07,CONCLUIDA,49,49
+Guatemala,Colombia,2025-08,CONCLUIDA,27,27
+Guatemala,Costa Rica,2023-03,CANCELADA,383,262
+Guatemala,Costa Rica,2023-03,CONCLUIDA,407,326
+Guatemala,Costa Rica,2023-04,CONCLUIDA,5,5
+Guatemala,Costa Rica,2024-06,CANCELADA,1,1
+Guatemala,Ecuador,2023-10,CANCELADA,91,20
+Guatemala,Ecuador,2023-10,CONCLUIDA,49,8
+Guatemala,Ecuador,2023-11,CANCELADA,102,69
+Guatemala,Ecuador,2023-11,CONCLUIDA,186,144
+Guatemala,Ecuador,2023-12,CANCELADA,99,66
+Guatemala,Ecuador,2023-12,CONCLUIDA,231,168
+Guatemala,Ecuador,2024-01,CANCELADA,148,105
+Guatemala,Ecuador,2024-01,CONCLUIDA,282,209
+Guatemala,Ecuador,2024-02,CANCELADA,5,4
+Guatemala,Ecuador,2024-02,CONCLUIDA,67,52
+Guatemala,Ecuador,2024-03,CANCELADA,5,5
+Guatemala,Ecuador,2024-03,CONCLUIDA,32,26
+Guatemala,Ecuador,2024-04,CONCLUIDA,10,7
+Guatemala,Ecuador,2024-05,CANCELADA,2,2
+Guatemala,Ecuador,2024-05,CONCLUIDA,7,7
+Guatemala,Ecuador,2024-06,CONCLUIDA,6,5
+Guatemala,Ecuador,2024-07,CONCLUIDA,3,3
+Guatemala,Ecuador,2024-08,CONCLUIDA,2,2
+Guatemala,Ecuador,2024-09,CONCLUIDA,4,3
+Guatemala,Ecuador,2024-10,CONCLUIDA,1,1
+Guatemala,Ecuador,2024-11,CONCLUIDA,1,1
+Guatemala,Egipto,2023-01,OTRO,41,28
+Guatemala,Egipto,2023-02,OTRO,33,24
+Guatemala,Egipto,2023-03,OTRO,6,6
+Guatemala,Egipto,2023-06,OTRO,7,4
+Guatemala,Egipto,2023-07,OTRO,1,1
+Guatemala,Egipto,2023-08,OTRO,47,12
+Guatemala,Egipto,2023-09,OTRO,43,19
+Guatemala,Egipto,2023-10,OTRO,15,5
+Guatemala,Egipto,2023-11,OTRO,71,15
+Guatemala,Egipto,2023-12,OTRO,7,2
+Guatemala,Egipto,2024-01,OTRO,2,2
+Guatemala,Egipto,2024-02,OTRO,30,7
+Guatemala,Egipto,2024-03,OTRO,31,14
+Guatemala,Egipto,2024-04,OTRO,160,20
+Guatemala,Egipto,2024-05,OTRO,166,19
+Guatemala,Egipto,2024-06,OTRO,33,8
+Guatemala,Egipto,2024-07,OTRO,21,8
+Guatemala,Egipto,2024-08,OTRO,58,11
+Guatemala,Egipto,2024-09,OTRO,147,24
+Guatemala,Egipto,2024-10,OTRO,7,3
+Guatemala,Egipto,2024-12,OTRO,3,1
+Guatemala,Egipto,2025-01,OTRO,50,6
+Guatemala,Egipto,2025-02,OTRO,43,21
+Guatemala,Egipto,2025-03,OTRO,52,12
+Guatemala,Egipto,2025-04,OTRO,3,1
+Guatemala,Egipto,2025-05,OTRO,10,6
+Guatemala,Egipto,2025-07,OTRO,71,16
+Guatemala,Egipto,2025-08,OTRO,87,42
+Guatemala,Egipto,2025-09,OTRO,40,21
+Guatemala,Egipto,2025-10,OTRO,32,9
+Guatemala,El Salvador,2023-01,CANCELADA,2,2
+Guatemala,El Salvador,2023-01,CONCLUIDA,2,2
+Guatemala,El Salvador,2024-01,CANCELADA,7,6
+Guatemala,El Salvador,2024-01,CONCLUIDA,10,8
+Guatemala,El Salvador,2024-02,CANCELADA,6,5
+Guatemala,El Salvador,2024-02,CONCLUIDA,12,11
+Guatemala,El Salvador,2024-03,CANCELADA,2,2
+Guatemala,El Salvador,2024-03,CONCLUIDA,16,16
+Guatemala,El Salvador,2024-04,CANCELADA,8,7
+Guatemala,El Salvador,2024-04,CONCLUIDA,38,32
+Guatemala,El Salvador,2024-05,CANCELADA,13,11
+Guatemala,El Salvador,2024-05,CONCLUIDA,13,13
+Guatemala,El Salvador,2024-06,CANCELADA,4,4
+Guatemala,El Salvador,2024-06,CONCLUIDA,20,19
+Guatemala,El Salvador,2024-07,CANCELADA,5,5
+Guatemala,El Salvador,2024-07,CONCLUIDA,19,18
+Guatemala,El Salvador,2024-08,CANCELADA,8,8
+Guatemala,El Salvador,2024-08,CONCLUIDA,11,11
+Guatemala,El Salvador,2024-09,CANCELADA,5,5
+Guatemala,El Salvador,2024-09,CONCLUIDA,13,12
+Guatemala,El Salvador,2024-10,CANCELADA,5,5
+Guatemala,El Salvador,2024-10,CONCLUIDA,17,16
+Guatemala,El Salvador,2024-11,CANCELADA,4,4
+Guatemala,El Salvador,2024-11,CONCLUIDA,29,29
+Guatemala,El Salvador,2024-12,CANCELADA,9,8
+Guatemala,El Salvador,2024-12,CONCLUIDA,17,16
+Guatemala,El Salvador,2025-01,CANCELADA,3,3
+Guatemala,El Salvador,2025-01,CONCLUIDA,21,19
+Guatemala,El Salvador,2025-02,CANCELADA,14,12
+Guatemala,El Salvador,2025-02,CONCLUIDA,19,19
+Guatemala,El Salvador,2025-03,CANCELADA,11,11
+Guatemala,El Salvador,2025-03,CONCLUIDA,21,21
+Guatemala,El Salvador,2025-04,CANCELADA,15,14
+Guatemala,El Salvador,2025-04,CONCLUIDA,21,19
+Guatemala,El Salvador,2025-05,CANCELADA,6,5
+Guatemala,El Salvador,2025-05,CONCLUIDA,13,12
+Guatemala,El Salvador,2025-06,CANCELADA,11,10
+Guatemala,El Salvador,2025-06,CONCLUIDA,21,19
+Guatemala,El Salvador,2025-07,CANCELADA,20,17
+Guatemala,El Salvador,2025-07,CONCLUIDA,27,25
+Guatemala,El Salvador,2025-08,CANCELADA,19,17
+Guatemala,El Salvador,2025-08,CONCLUIDA,23,21
+Guatemala,Estados Unidos,2024-12,OTRO,99,21
+Guatemala,Estados Unidos,2025-01,OTRO,52,17
+Guatemala,Estados Unidos,2025-02,OTRO,31,19
+Guatemala,Estados Unidos,2025-03,OTRO,61,33
+Guatemala,Estados Unidos,2025-04,OTRO,74,14
+Guatemala,Estados Unidos,2025-05,OTRO,61,14
+Guatemala,Estados Unidos,2025-07,OTRO,1,1
+Guatemala,Estados Unidos,2025-08,OTRO,7,4
+Guatemala,Guatemala,2024-01,CANCELADA,287,23
+Guatemala,Guatemala,2024-01,CONCLUIDA,65,14
+Guatemala,Guatemala,2024-02,CANCELADA,934,88
+Guatemala,Guatemala,2024-02,CONCLUIDA,201,53
+Guatemala,Guatemala,2024-03,CANCELADA,1097,107
+Guatemala,Guatemala,2024-03,CONCLUIDA,415,65
+Guatemala,Guatemala,2024-04,CANCELADA,847,152
+Guatemala,Guatemala,2024-04,CONCLUIDA,360,60
+Guatemala,Guatemala,2024-05,CANCELADA,544,96
+Guatemala,Guatemala,2024-05,CONCLUIDA,194,37
+Guatemala,Guatemala,2024-06,CANCELADA,32,3
+Guatemala,Guatemala,2024-06,CONCLUIDA,1,1
+Guatemala,Guatemala,2024-07,CANCELADA,85,4
+Guatemala,Guatemala,2024-07,CONCLUIDA,30,3
+Guatemala,Guatemala,2024-08,CANCELADA,61,2
+Guatemala,Guatemala,2024-08,CONCLUIDA,27,1
+Guatemala,Guatemala,2024-09,CANCELADA,55,3
+Guatemala,Guatemala,2024-09,CONCLUIDA,29,1
+Guatemala,Guatemala,2024-10,CANCELADA,4092,2354
+Guatemala,Guatemala,2024-10,CONCLUIDA,10503,7096
+Guatemala,Guatemala,2024-11,CANCELADA,5550,3610
+Guatemala,Guatemala,2024-11,CONCLUIDA,16546,11390
+Guatemala,Guatemala,2024-12,CANCELADA,5473,3525
+Guatemala,Guatemala,2024-12,CONCLUIDA,16880,11773
+Guatemala,Guatemala,2025-01,CANCELADA,5141,3412
+Guatemala,Guatemala,2025-01,CONCLUIDA,17116,12200
+Guatemala,Guatemala,2025-02,CANCELADA,5020,3346
+Guatemala,Guatemala,2025-02,CONCLUIDA,15967,11405
+Guatemala,Guatemala,2025-03,CANCELADA,5529,3693
+Guatemala,Guatemala,2025-03,CONCLUIDA,19948,15089
+Guatemala,Guatemala,2025-04,CANCELADA,5143,3465
+Guatemala,Guatemala,2025-04,CONCLUIDA,18939,14150
+Guatemala,Guatemala,2025-05,CANCELADA,5395,3774
+Guatemala,Guatemala,2025-05,CONCLUIDA,19564,14534
+Guatemala,Guatemala,2025-05,PROCESO,1,1
+Guatemala,Guatemala,2025-06,CANCELADA,7657,3782
+Guatemala,Guatemala,2025-06,CONCLUIDA,20107,13580
+Guatemala,Guatemala,2025-07,CANCELADA,8350,4006
+Guatemala,Guatemala,2025-07,CONCLUIDA,23159,15320
+Guatemala,Guatemala,2025-08,CANCELADA,7343,4348
+Guatemala,Guatemala,2025-08,CONCLUIDA,21585,15136
+Guatemala,Guatemala,2025-09,CANCELADA,20,7
+Guatemala,Guatemala,2025-09,CONCLUIDA,23,12
+Guatemala,Guatemala,2025-10,CANCELADA,17,1
+Guatemala,Guatemala,2025-10,CONCLUIDA,1,1
+Guatemala,Honduras,2023-11,CANCELADA,11,2
+Guatemala,Honduras,2023-11,CONCLUIDA,10,1
+Guatemala,Honduras,2023-12,CANCELADA,5,1
+Guatemala,Honduras,2023-12,CONCLUIDA,9,1
+Guatemala,Honduras,2024-01,CONCLUIDA,1,1
+Guatemala,Honduras,2024-03,CANCELADA,3,3
+Guatemala,Honduras,2024-03,CONCLUIDA,1,1
+Guatemala,Honduras,2024-04,CANCELADA,5,3
+Guatemala,Honduras,2024-04,CONCLUIDA,4,4
+Guatemala,Honduras,2024-05,CANCELADA,5,3
+Guatemala,Honduras,2024-05,CONCLUIDA,6,5
+Guatemala,Honduras,2024-06,CANCELADA,2,2
+Guatemala,Honduras,2024-06,CONCLUIDA,3,2
+Guatemala,Honduras,2024-07,CANCELADA,2,2
+Guatemala,Honduras,2024-07,CONCLUIDA,6,5
+Guatemala,Honduras,2024-08,CONCLUIDA,9,9
+Guatemala,Honduras,2024-09,CANCELADA,1,1
+Guatemala,Honduras,2024-10,CANCELADA,5,5
+Guatemala,Honduras,2024-10,CONCLUIDA,15,14
+Guatemala,Honduras,2024-11,CANCELADA,12,9
+Guatemala,Honduras,2024-11,CONCLUIDA,18,16
+Guatemala,Honduras,2024-12,CANCELADA,14,12
+Guatemala,Honduras,2024-12,CONCLUIDA,27,23
+Guatemala,Honduras,2025-01,CANCELADA,4,4
+Guatemala,Honduras,2025-01,CONCLUIDA,26,25
+Guatemala,Honduras,2025-02,CONCLUIDA,2,2
+Guatemala,Mexico,2023-02,CANCELADA,54,48
+Guatemala,Mexico,2023-02,CONCLUIDA,21,20
+Guatemala,Mexico,2023-03,CANCELADA,10,8
+Guatemala,Mexico,2023-03,CONCLUIDA,11,10
+Guatemala,Mexico,2023-04,CANCELADA,69,59
+Guatemala,Mexico,2023-04,CONCLUIDA,16,12
+Guatemala,Mexico,2023-05,CANCELADA,267,259
+Guatemala,Mexico,2023-05,CONCLUIDA,143,141
+Guatemala,Mexico,2023-06,CANCELADA,61,58
+Guatemala,Mexico,2023-06,CONCLUIDA,35,33
+Guatemala,Nicaragua,2023-12,CANCELADA,26,2
+Guatemala,Nicaragua,2023-12,CONCLUIDA,36,3
+Guatemala,Nicaragua,2024-01,CANCELADA,5,1
+Guatemala,Nicaragua,2024-01,CONCLUIDA,10,1
+Guatemala,Nicaragua,2024-02,CANCELADA,1,1
+Guatemala,Nicaragua,2024-04,CONCLUIDA,2,2
+Guatemala,Nicaragua,2024-05,CANCELADA,2,2
+Guatemala,Nicaragua,2024-08,CANCELADA,3,2
+Guatemala,Nicaragua,2024-10,CANCELADA,3,3
+Guatemala,Nicaragua,2025-01,PROCESO,1,1
+Guatemala,Nicaragua,2025-02,CANCELADA,3,2
+Guatemala,Paraguay,2023-11,CANCELADA,1,1
+Guatemala,Paraguay,2023-11,CONCLUIDA,8,2
+Guatemala,Paraguay,2023-12,CANCELADA,57,51
+Guatemala,Paraguay,2023-12,CONCLUIDA,122,114
+Guatemala,Paraguay,2024-01,CANCELADA,6,4
+Guatemala,Paraguay,2024-01,CONCLUIDA,12,11
+Guatemala,Paraguay,2024-02,CANCELADA,54,47
+Guatemala,Paraguay,2024-02,CONCLUIDA,164,154
+Guatemala,Paraguay,2024-03,CANCELADA,42,41
+Guatemala,Paraguay,2024-03,CONCLUIDA,120,117
+Guatemala,Paraguay,2024-04,CANCELADA,45,40
+Guatemala,Paraguay,2024-04,CONCLUIDA,96,92
+Guatemala,Peru,2023-11,CANCELADA,4,4
+Guatemala,Peru,2023-11,CONCLUIDA,8,2
+Guatemala,Peru,2023-12,CANCELADA,48,44
+Guatemala,Peru,2023-12,CONCLUIDA,133,122
+Guatemala,Peru,2024-02,CANCELADA,119,111
+Guatemala,Peru,2024-02,CONCLUIDA,117,108
+Guatemala,Peru,2024-03,CANCELADA,166,152
+Guatemala,Peru,2024-03,CONCLUIDA,168,144
+Guatemala,Uruguay,2023-09,CANCELADA,24,8
+Guatemala,Uruguay,2023-09,CONCLUIDA,5,5
+Guatemala,Uruguay,2023-10,CANCELADA,273,193
+Guatemala,Uruguay,2023-10,CONCLUIDA,541,442
+Guatemala,Uruguay,2023-11,CANCELADA,10,10
+Guatemala,Uruguay,2023-11,CONCLUIDA,43,35
+Mexico,Argentina,2023-12,CANCELADA,33,29
+Mexico,Argentina,2023-12,CONCLUIDA,41,40
+Mexico,Argentina,2024-01,CANCELADA,31,24
+Mexico,Argentina,2024-01,CONCLUIDA,70,69
+Mexico,Argentina,2024-02,CANCELADA,13,13
+Mexico,Argentina,2024-02,CONCLUIDA,84,83
+Mexico,Argentina,2024-03,CANCELADA,2,2
+Mexico,Argentina,2024-03,CONCLUIDA,3,3
+Mexico,Bolivia,2024-01,CANCELADA,2,2
+Mexico,Bolivia,2024-02,CANCELADA,11,11
+Mexico,Bolivia,2024-02,CONCLUIDA,37,34
+Mexico,Bolivia,2024-03,CANCELADA,18,15
+Mexico,Bolivia,2024-03,CONCLUIDA,78,67
+Mexico,Bolivia,2024-04,CANCELADA,16,12
+Mexico,Bolivia,2024-04,CONCLUIDA,62,55
+Mexico,Bolivia,2024-05,CANCELADA,10,9
+Mexico,Bolivia,2024-05,CONCLUIDA,70,58
+Mexico,Chile,2024-01,CANCELADA,16,14
+Mexico,Chile,2024-01,CONCLUIDA,15,14
+Mexico,Chile,2024-02,CANCELADA,34,23
+Mexico,Chile,2024-02,CONCLUIDA,17,13
+Mexico,Chile,2024-03,CANCELADA,52,42
+Mexico,Chile,2024-03,CONCLUIDA,26,20
+Mexico,Chile,2024-04,CANCELADA,38,35
+Mexico,Chile,2024-04,CONCLUIDA,35,25
+Mexico,Chile,2024-05,CANCELADA,46,37
+Mexico,Chile,2024-05,CONCLUIDA,41,29
+Mexico,Costa Rica,2023-04,CANCELADA,3,3
+Mexico,Costa Rica,2023-04,CONCLUIDA,5,2
+Mexico,Costa Rica,2023-05,CANCELADA,85,64
+Mexico,Costa Rica,2023-05,CONCLUIDA,160,122
+Mexico,Costa Rica,2023-06,CANCELADA,36,25
+Mexico,Costa Rica,2023-06,CONCLUIDA,71,52
+Mexico,Dominicana,2023-02,CANCELADA,22,19
+Mexico,Dominicana,2023-02,CONCLUIDA,53,51
+Mexico,Dominicana,2023-03,CANCELADA,38,32
+Mexico,Dominicana,2023-03,CONCLUIDA,74,66
+Mexico,Dominicana,2023-04,CANCELADA,32,25
+Mexico,Dominicana,2023-04,CONCLUIDA,84,78
+Mexico,Ecuador,2025-02,CANCELADA,5,3
+Mexico,Ecuador,2025-02,CONCLUIDA,3,2
+Mexico,Ecuador,2025-03,CANCELADA,4,4
+Mexico,Ecuador,2025-03,CONCLUIDA,5,5
+Mexico,Ecuador,2025-04,CANCELADA,2,2
+Mexico,Ecuador,2025-04,CONCLUIDA,19,15
+Mexico,Ecuador,2025-05,CANCELADA,4,4
+Mexico,Ecuador,2025-05,CONCLUIDA,9,9
+Mexico,Ecuador,2025-06,CANCELADA,8,8
+Mexico,Ecuador,2025-06,CONCLUIDA,6,6
+Mexico,Ecuador,2025-07,CANCELADA,10,9
+Mexico,Ecuador,2025-07,CONCLUIDA,13,12
+Mexico,Ecuador,2025-08,CANCELADA,8,7
+Mexico,Ecuador,2025-08,CONCLUIDA,28,24
+Mexico,Ecuador,2025-09,CANCELADA,10,10
+Mexico,Ecuador,2025-09,CONCLUIDA,21,18
+Mexico,Ecuador,2025-10,CANCELADA,9,7
+Mexico,Ecuador,2025-10,CONCLUIDA,14,11
+Mexico,Ecuador,2025-10,PROCESO,5,3
+Mexico,Mexico,2024-02,CANCELADA,6,5
+Mexico,Mexico,2024-02,CONCLUIDA,3,2
+Mexico,Mexico,2024-03,CANCELADA,23,23
+Mexico,Mexico,2024-04,CANCELADA,14,11
+Mexico,Mexico,2024-05,CANCELADA,9,9
+Mexico,Mexico,2024-05,CONCLUIDA,6,6
+Mexico,Mexico,2024-06,CANCELADA,33,33
+Mexico,Mexico,2024-06,CONCLUIDA,6,6
+Mexico,Mexico,2024-07,CANCELADA,15,14
+Mexico,Mexico,2024-07,CONCLUIDA,6,6
+Mexico,Mexico,2024-08,CANCELADA,14,14
+Mexico,Mexico,2024-08,CONCLUIDA,5,5
+Mexico,Mexico,2024-09,CANCELADA,8,8
+Mexico,Mexico,2024-09,CONCLUIDA,8,6
+Mexico,Mexico,2024-10,CANCELADA,2,2
+Mexico,Mexico,2024-11,CANCELADA,1,1
+Mexico,Mexico,2024-11,CONCLUIDA,7,7
+Mexico,Mexico,2024-12,CANCELADA,3,3
+Mexico,Mexico,2024-12,CONCLUIDA,5,5
+Mexico,Mexico,2025-01,CANCELADA,11,11
+Mexico,Mexico,2025-01,CONCLUIDA,8,8
+Mexico,Mexico,2025-02,CANCELADA,11,7
+Mexico,Mexico,2025-02,CONCLUIDA,15,14
+Mexico,Mexico,2025-03,CANCELADA,17,6
+Mexico,Mexico,2025-03,CONCLUIDA,16,13
+Mexico,Mexico,2025-04,CANCELADA,3,3
+Mexico,Mexico,2025-04,CONCLUIDA,16,14
+Mexico,Mexico,2025-05,CANCELADA,10,6
+Mexico,Mexico,2025-05,CONCLUIDA,10,9
+Mexico,Mexico,2025-06,CANCELADA,4,3
+Mexico,Mexico,2025-06,CONCLUIDA,4,4
+Mexico,Mexico,2025-07,CANCELADA,13,3
+Mexico,Mexico,2025-07,CONCLUIDA,9,7
+Mexico,Mexico,2025-08,CANCELADA,1,1
+Mexico,Mexico,2025-08,CONCLUIDA,12,10
+Mexico,Peru,2025-09,CANCELADA,1,1
+Mexico,Peru,2025-09,CONCLUIDA,7,3
+Mexico,Peru,2025-10,CANCELADA,3,3
+Mexico,Peru,2025-10,CONCLUIDA,3,3
+Mexico,Uruguay,2024-04,CANCELADA,1,1
+Puerto Rico,Argentina,2024-07,CONCLUIDA,1,1
+Puerto Rico,Argentina,2025-03,CONCLUIDA,1,1
+Puerto Rico,Argentina,2025-04,CONCLUIDA,1,1
+Puerto Rico,Argentina,2025-05,CANCELADA,477,461
+Puerto Rico,Argentina,2025-05,CONCLUIDA,1706,1655
+Puerto Rico,Argentina,2025-06,CANCELADA,601,535
+Puerto Rico,Argentina,2025-06,CONCLUIDA,1759,1718
+Puerto Rico,Argentina,2025-07,CANCELADA,573,481
+Puerto Rico,Argentina,2025-07,CONCLUIDA,1895,1844
+Puerto Rico,Argentina,2025-08,CANCELADA,674,615
+Puerto Rico,Argentina,2025-08,CONCLUIDA,1732,1694
+Puerto Rico,Argentina,2025-09,CANCELADA,837,757
+Puerto Rico,Argentina,2025-09,CONCLUIDA,1963,1928
+Puerto Rico,Argentina,2025-10,CANCELADA,926,863
+Puerto Rico,Argentina,2025-10,CONCLUIDA,1832,1793
+Puerto Rico,Argentina,2025-10,PROCESO,165,164
+Puerto Rico,Bolivia,2025-07,CANCELADA,1,1
+Puerto Rico,Bolivia,2025-09,CANCELADA,299,245
+Puerto Rico,Bolivia,2025-09,CONCLUIDA,715,626
+Puerto Rico,Bolivia,2025-10,CANCELADA,310,257
+Puerto Rico,Bolivia,2025-10,CONCLUIDA,797,704
+Puerto Rico,Bolivia,2025-10,PROCESO,119,115
+Puerto Rico,Chile,2024-10,CANCELADA,1,1
+Puerto Rico,Chile,2024-11,CONCLUIDA,1,1
+Puerto Rico,Chile,2025-09,CANCELADA,1,1
+Puerto Rico,Costa Rica,2023-08,CANCELADA,1,1
+Puerto Rico,Costa Rica,2023-11,CANCELADA,517,402
+Puerto Rico,Costa Rica,2023-11,CONCLUIDA,643,513
+Puerto Rico,Costa Rica,2023-12,CANCELADA,2100,1436
+Puerto Rico,Costa Rica,2023-12,CONCLUIDA,3269,2587
+Puerto Rico,Costa Rica,2024-01,CANCELADA,2195,1549
+Puerto Rico,Costa Rica,2024-01,CONCLUIDA,3708,2887
+Puerto Rico,Costa Rica,2024-02,CANCELADA,1916,1365
+Puerto Rico,Costa Rica,2024-02,CONCLUIDA,3505,2725
+Puerto Rico,Costa Rica,2024-03,CANCELADA,2100,1398
+Puerto Rico,Costa Rica,2024-03,CONCLUIDA,3381,2618
+Puerto Rico,Costa Rica,2024-04,CANCELADA,2047,1496
+Puerto Rico,Costa Rica,2024-04,CONCLUIDA,3799,3017
+Puerto Rico,Costa Rica,2024-05,CANCELADA,2190,1731
+Puerto Rico,Costa Rica,2024-05,CONCLUIDA,3734,2976
+Puerto Rico,Costa Rica,2024-06,CANCELADA,1902,1550
+Puerto Rico,Costa Rica,2024-06,CONCLUIDA,3158,2635
+Puerto Rico,Costa Rica,2024-07,CANCELADA,1492,1357
+Puerto Rico,Costa Rica,2024-07,CONCLUIDA,3084,2708
+Puerto Rico,Costa Rica,2024-08,CANCELADA,1571,1443
+Puerto Rico,Costa Rica,2024-08,CONCLUIDA,3031,2651
+Puerto Rico,Costa Rica,2024-09,CANCELADA,1624,1476
+Puerto Rico,Costa Rica,2024-09,CONCLUIDA,3311,2904
+Puerto Rico,Costa Rica,2024-10,CANCELADA,2031,1852
+Puerto Rico,Costa Rica,2024-10,CONCLUIDA,3616,3166
+Puerto Rico,Costa Rica,2024-11,CANCELADA,2056,1880
+Puerto Rico,Costa Rica,2024-11,CONCLUIDA,3456,2994
+Puerto Rico,Costa Rica,2024-12,CANCELADA,1894,1730
+Puerto Rico,Costa Rica,2024-12,CONCLUIDA,3142,2710
+Puerto Rico,Costa Rica,2025-01,CANCELADA,2036,1862
+Puerto Rico,Costa Rica,2025-01,CONCLUIDA,3452,2963
+Puerto Rico,Costa Rica,2025-02,CANCELADA,1179,1121
+Puerto Rico,Costa Rica,2025-02,CONCLUIDA,2410,2066
+Puerto Rico,Costa Rica,2025-03,CANCELADA,2,2
+Puerto Rico,Costa Rica,2025-03,CONCLUIDA,7,4
+Puerto Rico,Costa Rica,2025-05,CONCLUIDA,1,1
+Puerto Rico,Costa Rica,2025-09,CANCELADA,18,1
+Puerto Rico,Dominicana,2023-07,CONCLUIDA,1,1
+Puerto Rico,Dominicana,2023-12,CANCELADA,1,1
+Puerto Rico,Dominicana,2023-12,CONCLUIDA,2,2
+Puerto Rico,Dominicana,2024-01,CANCELADA,975,861
+Puerto Rico,Dominicana,2024-01,CONCLUIDA,2494,2348
+Puerto Rico,Dominicana,2024-02,CANCELADA,941,798
+Puerto Rico,Dominicana,2024-02,CONCLUIDA,2197,2056
+Puerto Rico,Dominicana,2024-03,CANCELADA,917,815
+Puerto Rico,Dominicana,2024-03,CONCLUIDA,2363,2251
+Puerto Rico,Dominicana,2024-04,CANCELADA,1078,940
+Puerto Rico,Dominicana,2024-04,CONCLUIDA,2470,2345
+Puerto Rico,Dominicana,2024-05,CANCELADA,1146,980
+Puerto Rico,Dominicana,2024-05,CONCLUIDA,2546,2441
+Puerto Rico,Dominicana,2024-06,CANCELADA,1092,989
+Puerto Rico,Dominicana,2024-06,CONCLUIDA,2320,2230
+Puerto Rico,Dominicana,2024-07,CANCELADA,1156,1048
+Puerto Rico,Dominicana,2024-07,CONCLUIDA,2496,2365
+Puerto Rico,Dominicana,2024-08,CANCELADA,1007,911
+Puerto Rico,Dominicana,2024-08,CONCLUIDA,2409,2284
+Puerto Rico,Dominicana,2024-09,CANCELADA,1121,994
+Puerto Rico,Dominicana,2024-09,CONCLUIDA,2413,2309
+Puerto Rico,Dominicana,2024-10,CANCELADA,1020,915
+Puerto Rico,Dominicana,2024-10,CONCLUIDA,2566,2445
+Puerto Rico,Dominicana,2024-11,CANCELADA,1156,1066
+Puerto Rico,Dominicana,2024-11,CONCLUIDA,2614,2522
+Puerto Rico,Dominicana,2024-12,CANCELADA,1201,1122
+Puerto Rico,Dominicana,2024-12,CONCLUIDA,2627,2513
+Puerto Rico,Dominicana,2025-01,CANCELADA,1165,1072
+Puerto Rico,Dominicana,2025-01,CONCLUIDA,2536,2437
+Puerto Rico,Dominicana,2025-02,CANCELADA,999,919
+Puerto Rico,Dominicana,2025-02,CONCLUIDA,2319,2216
+Puerto Rico,Dominicana,2025-02,PROCESO,1,1
+Puerto Rico,Dominicana,2025-03,CANCELADA,1216,1108
+Puerto Rico,Dominicana,2025-03,CONCLUIDA,2629,2525
+Puerto Rico,Dominicana,2025-04,CANCELADA,1137,1049
+Puerto Rico,Dominicana,2025-04,CONCLUIDA,2237,2154
+Puerto Rico,Dominicana,2025-05,CANCELADA,1285,1173
+Puerto Rico,Dominicana,2025-05,CONCLUIDA,2484,2390
+Puerto Rico,Dominicana,2025-06,CANCELADA,1226,1078
+Puerto Rico,Dominicana,2025-06,CONCLUIDA,2245,2130
+Puerto Rico,Dominicana,2025-07,CANCELADA,1233,1107
+Puerto Rico,Dominicana,2025-07,CONCLUIDA,2401,2268
+Puerto Rico,Dominicana,2025-08,CANCELADA,1164,1071
+Puerto Rico,Dominicana,2025-08,CONCLUIDA,2362,2260
+Puerto Rico,Dominicana,2025-09,CANCELADA,1,1
+Puerto Rico,Puerto Rico,2023-01,CANCELADA,9018,7682
+Puerto Rico,Puerto Rico,2023-01,CONCLUIDA,23641,20066
+Puerto Rico,Puerto Rico,2023-02,CANCELADA,53,50
+Puerto Rico,Puerto Rico,2023-02,CONCLUIDA,405,354
+Puerto Rico,Puerto Rico,2023-03,CANCELADA,6,6
+Puerto Rico,Puerto Rico,2023-03,CONCLUIDA,21,19
+Puerto Rico,Puerto Rico,2023-04,CONCLUIDA,3,3
+Puerto Rico,Puerto Rico,2023-05,CANCELADA,4,4
+Puerto Rico,Puerto Rico,2023-05,CONCLUIDA,4,4
+Puerto Rico,Puerto Rico,2023-06,CANCELADA,1,1
+Puerto Rico,Puerto Rico,2023-06,CONCLUIDA,2,2
+Puerto Rico,Puerto Rico,2023-07,CANCELADA,1,1
+Puerto Rico,Puerto Rico,2023-10,CANCELADA,1,1
+Puerto Rico,Puerto Rico,2023-11,CANCELADA,7,7
+Puerto Rico,Puerto Rico,2023-11,CONCLUIDA,5,5
+Puerto Rico,Puerto Rico,2023-12,CANCELADA,60,49
+Puerto Rico,Puerto Rico,2023-12,CONCLUIDA,68,45
+Puerto Rico,Puerto Rico,2024-01,CANCELADA,9563,7343
+Puerto Rico,Puerto Rico,2024-01,CONCLUIDA,25368,21336
+Puerto Rico,Puerto Rico,2024-02,CANCELADA,9160,7416
+Puerto Rico,Puerto Rico,2024-02,CONCLUIDA,24748,21409
+Puerto Rico,Puerto Rico,2024-03,CANCELADA,8383,6762
+Puerto Rico,Puerto Rico,2024-03,CONCLUIDA,25895,22476
+Puerto Rico,Puerto Rico,2024-04,CANCELADA,11514,9038
+Puerto Rico,Puerto Rico,2024-04,CONCLUIDA,27559,23432
+Puerto Rico,Puerto Rico,2024-05,CANCELADA,10538,8774
+Puerto Rico,Puerto Rico,2024-05,CONCLUIDA,27474,23669
+Puerto Rico,Puerto Rico,2024-06,CANCELADA,9027,7637
+Puerto Rico,Puerto Rico,2024-06,CONCLUIDA,26263,22766
+Puerto Rico,Puerto Rico,2024-07,CANCELADA,10899,8989
+Puerto Rico,Puerto Rico,2024-07,CONCLUIDA,29063,24598
+Puerto Rico,Puerto Rico,2024-08,CANCELADA,9903,8291
+Puerto Rico,Puerto Rico,2024-08,CONCLUIDA,26881,23471
+Puerto Rico,Puerto Rico,2024-09,CANCELADA,8403,7224
+Puerto Rico,Puerto Rico,2024-09,CONCLUIDA,27826,24505
+Puerto Rico,Puerto Rico,2024-10,CANCELADA,11096,9359
+Puerto Rico,Puerto Rico,2024-10,CONCLUIDA,30920,26443
+Puerto Rico,Puerto Rico,2024-11,CANCELADA,10089,8592
+Puerto Rico,Puerto Rico,2024-11,CONCLUIDA,27529,24015
+Puerto Rico,Puerto Rico,2024-12,CANCELADA,11488,9413
+Puerto Rico,Puerto Rico,2024-12,CONCLUIDA,28117,24616
+Puerto Rico,Puerto Rico,2025-01,CANCELADA,11084,9278
+Puerto Rico,Puerto Rico,2025-01,CONCLUIDA,30996,26071
+Puerto Rico,Puerto Rico,2025-01,PROCESO,2,1
+Puerto Rico,Puerto Rico,2025-02,CANCELADA,10479,8484
+Puerto Rico,Puerto Rico,2025-02,CONCLUIDA,28038,24349
+Puerto Rico,Puerto Rico,2025-03,CANCELADA,11493,9174
+Puerto Rico,Puerto Rico,2025-03,CONCLUIDA,34295,29621
+Puerto Rico,Puerto Rico,2025-04,CANCELADA,12176,9862
+Puerto Rico,Puerto Rico,2025-04,CONCLUIDA,34242,29422
+Puerto Rico,Puerto Rico,2025-05,CANCELADA,12960,10441
+Puerto Rico,Puerto Rico,2025-05,CONCLUIDA,34594,29939
+Puerto Rico,Puerto Rico,2025-06,CANCELADA,12174,9150
+Puerto Rico,Puerto Rico,2025-06,CONCLUIDA,39976,33893
+Puerto Rico,Puerto Rico,2025-07,CANCELADA,11291,8027
+Puerto Rico,Puerto Rico,2025-07,CONCLUIDA,43392,34625
+Puerto Rico,Puerto Rico,2025-07,PROCESO,44,3
+Puerto Rico,Puerto Rico,2025-08,CANCELADA,10723,7607
+Puerto Rico,Puerto Rico,2025-08,CONCLUIDA,43027,35199
+Puerto Rico,Puerto Rico,2025-08,PROCESO,37,11
+Puerto Rico,Puerto Rico,2025-09,CANCELADA,39,27
+Puerto Rico,Puerto Rico,2025-09,CONCLUIDA,136,109
+Puerto Rico,Puerto Rico,2025-10,CANCELADA,8,2
+Puerto Rico,Puerto Rico,2025-10,CONCLUIDA,9,4
+Puerto Rico,Puerto Rico,2025-10,PROCESO,1,1
+Puerto Rico,Uruguay,2025-09,CONCLUIDA,1,1
+Sin Nodo,Argentina,2023-11,CONCLUIDA,1,1
+Sin Nodo,Argentina,2025-02,CANCELADA,1,1
+Sin Nodo,Argentina,2025-09,CANCELADA,3,2
+Sin Nodo,Argentina,2025-09,CONCLUIDA,1,1
+Sin Nodo,Argentina,2025-10,CONCLUIDA,2,2
+Sin Nodo,Bolivia,2023-10,CANCELADA,10,1
+Sin Nodo,Bolivia,2023-10,CONCLUIDA,11,1
+Sin Nodo,Bolivia,2023-11,CONCLUIDA,4,1
+Sin Nodo,Bolivia,2023-12,CONCLUIDA,1,1
+Sin Nodo,Bolivia,2024-04,CONCLUIDA,1,1
+Sin Nodo,Bolivia,2024-12,CONCLUIDA,1,1
+Sin Nodo,Bolivia,2025-02,CANCELADA,1,1
+Sin Nodo,Bolivia,2025-08,CANCELADA,1,1
+Sin Nodo,Bolivia,2025-09,CANCELADA,13,8
+Sin Nodo,Bolivia,2025-09,CONCLUIDA,15,11
+Sin Nodo,Chile,2023-11,CONCLUIDA,1,1
+Sin Nodo,Chile,2025-09,CANCELADA,1,1
+Sin Nodo,Chile,2025-10,CANCELADA,1,1
+Sin Nodo,Chile,2025-10,CONCLUIDA,1,1
+Sin Nodo,Colombia,2023-12,CANCELADA,1,1
+Sin Nodo,Costa Rica,2023-04,CONCLUIDA,1,1
+Sin Nodo,Costa Rica,2023-05,CONCLUIDA,4,1
+Sin Nodo,Costa Rica,2023-07,CANCELADA,1,1
+Sin Nodo,Costa Rica,2023-08,CANCELADA,1,1
+Sin Nodo,Costa Rica,2023-08,CONCLUIDA,1,1
+Sin Nodo,Costa Rica,2023-09,CANCELADA,1,1
+Sin Nodo,Costa Rica,2023-09,CONCLUIDA,1,1
+Sin Nodo,Costa Rica,2023-10,CONCLUIDA,2,2
+Sin Nodo,Costa Rica,2023-11,CANCELADA,19,9
+Sin Nodo,Costa Rica,2023-11,CONCLUIDA,21,15
+Sin Nodo,Costa Rica,2023-12,CONCLUIDA,4,3
+Sin Nodo,Costa Rica,2024-02,CANCELADA,4,1
+Sin Nodo,Costa Rica,2024-02,CONCLUIDA,1,1
+Sin Nodo,Costa Rica,2024-03,CANCELADA,3,2
+Sin Nodo,Costa Rica,2024-03,CONCLUIDA,1,1
+Sin Nodo,Costa Rica,2024-05,CONCLUIDA,2,2
+Sin Nodo,Costa Rica,2025-02,CANCELADA,4,3
+Sin Nodo,Costa Rica,2025-03,CANCELADA,45,39
+Sin Nodo,Costa Rica,2025-03,CONCLUIDA,3,3
+Sin Nodo,Costa Rica,2025-04,CANCELADA,22,10
+Sin Nodo,Costa Rica,2025-04,CONCLUIDA,7,7
+Sin Nodo,Costa Rica,2025-05,CANCELADA,11,6
+Sin Nodo,Costa Rica,2025-05,CONCLUIDA,33,10
+Sin Nodo,Costa Rica,2025-06,CANCELADA,106,49
+Sin Nodo,Costa Rica,2025-06,CONCLUIDA,27,17
+Sin Nodo,Costa Rica,2025-07,CANCELADA,33,17
+Sin Nodo,Costa Rica,2025-07,CONCLUIDA,2,2
+Sin Nodo,Costa Rica,2025-08,CANCELADA,83,20
+Sin Nodo,Costa Rica,2025-08,CONCLUIDA,27,6
+Sin Nodo,Costa Rica,2025-09,CANCELADA,2344,1369
+Sin Nodo,Costa Rica,2025-09,CONCLUIDA,6469,3890
+Sin Nodo,Costa Rica,2025-09,PROCESO,99,42
+Sin Nodo,Costa Rica,2025-10,CANCELADA,1900,1170
+Sin Nodo,Costa Rica,2025-10,CONCLUIDA,5032,3326
+Sin Nodo,Costa Rica,2025-10,PROCESO,1209,503
+Sin Nodo,Dominicana,2023-04,CANCELADA,1,1
+Sin Nodo,Dominicana,2023-06,CONCLUIDA,1,1
+Sin Nodo,Dominicana,2023-07,CONCLUIDA,1,1
+Sin Nodo,Dominicana,2023-08,CONCLUIDA,1,1
+Sin Nodo,Dominicana,2023-09,CANCELADA,1,1
+Sin Nodo,Dominicana,2023-10,CANCELADA,1,1
+Sin Nodo,Dominicana,2023-11,CONCLUIDA,1,1
+Sin Nodo,Dominicana,2023-12,CANCELADA,8,6
+Sin Nodo,Dominicana,2023-12,CONCLUIDA,23,20
+Sin Nodo,Dominicana,2024-06,CANCELADA,1,1
+Sin Nodo,Dominicana,2024-06,CONCLUIDA,1,1
+Sin Nodo,Dominicana,2024-07,CANCELADA,8,1
+Sin Nodo,Dominicana,2024-10,CANCELADA,5,1
+Sin Nodo,Dominicana,2024-12,CONCLUIDA,2,2
+Sin Nodo,Dominicana,2025-01,CANCELADA,1,1
+Sin Nodo,Dominicana,2025-05,CANCELADA,1,1
+Sin Nodo,Dominicana,2025-08,CONCLUIDA,1,1
+Sin Nodo,Dominicana,2025-09,CANCELADA,53,50
+Sin Nodo,Dominicana,2025-09,CONCLUIDA,94,89
+Sin Nodo,Dominicana,2025-10,CANCELADA,33,33
+Sin Nodo,Dominicana,2025-10,CONCLUIDA,70,59
+Sin Nodo,Dominicana,2025-10,PROCESO,8,8
+Sin Nodo,Ecuador,2023-10,CANCELADA,2,1
+Sin Nodo,Ecuador,2023-10,CONCLUIDA,2,1
+Sin Nodo,Estados Unidos,2024-12,OTRO,1,1
+Sin Nodo,Guatemala,2024-01,CANCELADA,3,1
+Sin Nodo,Guatemala,2024-01,CONCLUIDA,1,1
+Sin Nodo,Guatemala,2024-10,CANCELADA,24,10
+Sin Nodo,Guatemala,2024-10,CONCLUIDA,26,17
+Sin Nodo,Guatemala,2024-11,CANCELADA,28,21
+Sin Nodo,Guatemala,2024-11,CONCLUIDA,20,19
+Sin Nodo,Guatemala,2024-12,CANCELADA,24,20
+Sin Nodo,Guatemala,2024-12,CONCLUIDA,20,20
+Sin Nodo,Guatemala,2025-01,CANCELADA,20,11
+Sin Nodo,Guatemala,2025-01,CONCLUIDA,15,15
+Sin Nodo,Guatemala,2025-02,CANCELADA,148,66
+Sin Nodo,Guatemala,2025-02,CONCLUIDA,23,17
+Sin Nodo,Guatemala,2025-03,CANCELADA,104,57
+Sin Nodo,Guatemala,2025-03,CONCLUIDA,29,16
+Sin Nodo,Guatemala,2025-04,CANCELADA,64,41
+Sin Nodo,Guatemala,2025-04,CONCLUIDA,18,18
+Sin Nodo,Guatemala,2025-05,CANCELADA,87,71
+Sin Nodo,Guatemala,2025-05,CONCLUIDA,29,27
+Sin Nodo,Guatemala,2025-06,CANCELADA,155,135
+Sin Nodo,Guatemala,2025-06,CONCLUIDA,39,34
+Sin Nodo,Guatemala,2025-07,CANCELADA,96,84
+Sin Nodo,Guatemala,2025-07,CONCLUIDA,54,38
+Sin Nodo,Guatemala,2025-08,CANCELADA,126,115
+Sin Nodo,Guatemala,2025-08,CONCLUIDA,29,27
+Sin Nodo,Guatemala,2025-09,CANCELADA,7369,4859
+Sin Nodo,Guatemala,2025-09,CONCLUIDA,21490,16420
+Sin Nodo,Guatemala,2025-09,PROCESO,3,2
+Sin Nodo,Guatemala,2025-10,CANCELADA,6402,4135
+Sin Nodo,Guatemala,2025-10,CONCLUIDA,16412,11937
+Sin Nodo,Guatemala,2025-10,PROCESO,1257,1050
+Sin Nodo,Honduras,2024-01,CANCELADA,1,1
+Sin Nodo,Mexico,2023-02,CANCELADA,1,1
+Sin Nodo,Mexico,2023-08,CONCLUIDA,1,1
+Sin Nodo,Mexico,2025-01,CONCLUIDA,1,1
+Sin Nodo,Paraguay,2023-12,CONCLUIDA,1,1
+Sin Nodo,Peru,2023-12,CANCELADA,1,1
+Sin Nodo,Puerto Rico,2023-01,CANCELADA,35,27
+Sin Nodo,Puerto Rico,2023-01,CONCLUIDA,67,57
+Sin Nodo,Puerto Rico,2023-02,CANCELADA,276,247
+Sin Nodo,Puerto Rico,2023-02,CONCLUIDA,818,706
+Sin Nodo,Puerto Rico,2023-03,CANCELADA,6615,5553
+Sin Nodo,Puerto Rico,2023-03,CONCLUIDA,21891,18767
+Sin Nodo,Puerto Rico,2023-04,CANCELADA,6652,5455
+Sin Nodo,Puerto Rico,2023-04,CONCLUIDA,22296,18615
+Sin Nodo,Puerto Rico,2023-05,CANCELADA,7518,6276
+Sin Nodo,Puerto Rico,2023-05,CONCLUIDA,24361,20735
+Sin Nodo,Puerto Rico,2023-06,CANCELADA,7222,6029
+Sin Nodo,Puerto Rico,2023-06,CONCLUIDA,21798,19255
+Sin Nodo,Puerto Rico,2023-07,CANCELADA,7941,6672
+Sin Nodo,Puerto Rico,2023-07,CONCLUIDA,23947,20467
+Sin Nodo,Puerto Rico,2023-08,CANCELADA,8167,6926
+Sin Nodo,Puerto Rico,2023-08,CONCLUIDA,24562,21221
+Sin Nodo,Puerto Rico,2023-09,CANCELADA,7011,5909
+Sin Nodo,Puerto Rico,2023-09,CONCLUIDA,22983,20026
+Sin Nodo,Puerto Rico,2023-10,CANCELADA,9266,7576
+Sin Nodo,Puerto Rico,2023-10,CONCLUIDA,26031,21785
+Sin Nodo,Puerto Rico,2023-11,CANCELADA,8341,6951
+Sin Nodo,Puerto Rico,2023-11,CONCLUIDA,24014,20481
+Sin Nodo,Puerto Rico,2023-12,CANCELADA,6914,5789
+Sin Nodo,Puerto Rico,2023-12,CONCLUIDA,22458,19719
+Sin Nodo,Puerto Rico,2024-01,CANCELADA,432,79
+Sin Nodo,Puerto Rico,2024-01,CONCLUIDA,166,37
+Sin Nodo,Puerto Rico,2024-02,CANCELADA,320,67
+Sin Nodo,Puerto Rico,2024-02,CONCLUIDA,113,42
+Sin Nodo,Puerto Rico,2024-03,CANCELADA,416,85
+Sin Nodo,Puerto Rico,2024-03,CONCLUIDA,95,31
+Sin Nodo,Puerto Rico,2024-04,CANCELADA,358,126
+Sin Nodo,Puerto Rico,2024-04,CONCLUIDA,249,69
+Sin Nodo,Puerto Rico,2024-04,PROCESO,1,1
+Sin Nodo,Puerto Rico,2024-05,CANCELADA,182,42
+Sin Nodo,Puerto Rico,2024-05,CONCLUIDA,102,22
+Sin Nodo,Puerto Rico,2024-06,CANCELADA,162,32
+Sin Nodo,Puerto Rico,2024-06,CONCLUIDA,84,23
+Sin Nodo,Puerto Rico,2024-07,CANCELADA,509,71
+Sin Nodo,Puerto Rico,2024-07,CONCLUIDA,223,54
+Sin Nodo,Puerto Rico,2024-08,CANCELADA,266,44
+Sin Nodo,Puerto Rico,2024-08,CONCLUIDA,138,30
+Sin Nodo,Puerto Rico,2024-09,CANCELADA,455,89
+Sin Nodo,Puerto Rico,2024-09,CONCLUIDA,1664,63
+Sin Nodo,Puerto Rico,2024-10,CANCELADA,379,73
+Sin Nodo,Puerto Rico,2024-10,CONCLUIDA,421,44
+Sin Nodo,Puerto Rico,2024-11,CANCELADA,186,47
+Sin Nodo,Puerto Rico,2024-11,CONCLUIDA,49,20
+Sin Nodo,Puerto Rico,2024-12,CANCELADA,68,12
+Sin Nodo,Puerto Rico,2024-12,CONCLUIDA,5,4
+Sin Nodo,Puerto Rico,2025-01,CANCELADA,174,41
+Sin Nodo,Puerto Rico,2025-01,CONCLUIDA,40,24
+Sin Nodo,Puerto Rico,2025-02,CANCELADA,61,14
+Sin Nodo,Puerto Rico,2025-02,CONCLUIDA,29,9
+Sin Nodo,Puerto Rico,2025-03,CANCELADA,45,9
+Sin Nodo,Puerto Rico,2025-03,CONCLUIDA,4,3
+Sin Nodo,Puerto Rico,2025-04,CANCELADA,202,29
+Sin Nodo,Puerto Rico,2025-04,CONCLUIDA,26,8
+Sin Nodo,Puerto Rico,2025-05,CANCELADA,19,9
+Sin Nodo,Puerto Rico,2025-05,CONCLUIDA,12,5
+Sin Nodo,Puerto Rico,2025-06,CANCELADA,37,7
+Sin Nodo,Puerto Rico,2025-06,CONCLUIDA,11,5
+Sin Nodo,Puerto Rico,2025-07,CANCELADA,7,4
+Sin Nodo,Puerto Rico,2025-07,CONCLUIDA,1,1
+Sin Nodo,Puerto Rico,2025-08,CANCELADA,3,2
+Sin Nodo,Puerto Rico,2025-09,CANCELADA,11438,8166
+Sin Nodo,Puerto Rico,2025-09,CONCLUIDA,46932,38546
+Sin Nodo,Puerto Rico,2025-09,PROCESO,973,224
+Sin Nodo,Puerto Rico,2025-10,CANCELADA,8597,6821
+Sin Nodo,Puerto Rico,2025-10,CONCLUIDA,30416,26277
+Sin Nodo,Puerto Rico,2025-10,PROCESO,13082,9157
+Sin Nodo,Uruguay,2023-12,CANCELADA,4,1
+Sin Nodo,Uruguay,2025-09,CONCLUIDA,1,1
