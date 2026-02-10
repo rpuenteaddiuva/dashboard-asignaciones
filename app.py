@@ -386,10 +386,13 @@ with tab_nodos:
         dfn = df_nodos[df_nodos['año'].isin(año_sel)].copy()
 
         # ── KPI Row ───────────────────────────────────────────────────────────
+        # Use asignaciones data (dff) for totals to match main KPIs exactly.
+        # Nodo data groups differently (no tipo_asignacion), so expediente
+        # deduplication is tighter, causing a mismatch if summed from nodos.
         nodos_activos = dfn[dfn['nodo'] != 'Sin Nodo']['nodo'].nunique()
-        n_total_serv = int(dfn['servicios'].sum())
-        n_total_exp = int(dfn['expedientes'].sum())
-        n_concl = int(dfn[dfn['estado'] == 'CONCLUIDA']['servicios'].sum())
+        n_total_serv = int(dff['servicios'].sum())
+        n_total_exp = int(dff['expedientes'].sum())
+        n_concl = int(dff[dff['estado'] == 'CONCLUIDA']['servicios'].sum())
 
         nk1, nk2, nk3, nk4 = st.columns(4)
         nk1.metric("🏢 Nodos Activos", nodos_activos)
