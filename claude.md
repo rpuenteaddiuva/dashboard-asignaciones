@@ -93,9 +93,11 @@ Script que procesa los 18 archivos Client CSV para producir `asignaciones_v2.csv
 ### Pestaña 1: Asignaciones por País
 - **3 gráficos de tendencia mensual**: Servicios, Concluidos, Expedientes (area charts)
 - **3 barras horizontales por país**: Servicios, Concluidos, Expedientes
-- **3 distribuciones**: Estado (pie), Tipo asignación (pie), App vs Manual (bar)
+- **3 distribuciones**: Estado (pie), Tipo asignación (pie top 5 + OTROS), App vs Manual (bar)
 - **Tasa de conclusión por país** (bar horizontal con escala de color semáforo)
 - **Tabla resumen** con totales formateados
+
+> **Nota:** El pie de Tipo de Asignación agrupa las categorías menores en "OTROS" (top 5 + otros) para evitar solapamiento de etiquetas. Solo muestra % dentro del pie, leyenda al lado.
 
 ### Pestaña 2: Nodos (Call Centers)
 - 4 KPIs: Nodos activos, Servicios, Concluidos, Expedientes
@@ -104,6 +106,8 @@ Script que procesa los 18 archivos Client CSV para producir `asignaciones_v2.csv
 - **Tendencia mensual** por nodo (líneas)
 - **Expandibles** por nodo con detalle de países atendidos
 - **Tabla resumen** por nodo
+
+> **⚠️ Nota técnica:** Los KPIs del tab Nodos usan `dff` (datos de asignaciones) para servicios/concluidos/expedientes, NO los datos de nodos. Esto evita una discrepancia en expedientes (asignaciones agrupa por tipo_asignacion extra, causando conteo inflado vs nodos que deduplica más). Los gráficos de desglose sí usan `dfn` (nodos_detalle).
 
 ### Clasificación App vs Manual
 ```python
@@ -142,12 +146,23 @@ Argentina, Bolivia, Chile, Colombia, Costa Rica, Dominicana, Ecuador, Egipto, El
 
 ---
 
+## Reporte de Mismatch (Semáforo)
+
+Se generó un reporte Excel (`Reporte_Mismatch_Semaforo.xlsx` en carpeta `Paises/`) comparando nuestros "CONCLUIDA" vs Índices Sep 2025:
+- 🟢 **5 países** cuadran (≤5%): Argentina, Perú, Dominicana, Uruguay, Ecuador
+- 🟡 **4 países** moderados (5-20%): El Salvador, Puerto Rico, Costa Rica, Chile
+- 🔴 **3 países** outliers (>20%): Guatemala (+45.5%), Bolivia (+75.6%), México (-26.7%)
+- ⚪ **6 países** sin hoja de referencia en índices: Colombia, Honduras, Nicaragua, Paraguay, Egipto, Estados Unidos
+
+---
+
 ## Convenciones
 
 - **Fechas**: `YYYY-MM` en datos, datetime (`YYYY-MM-01`) en dashboard
 - **Cache**: `@st.cache_data` para performance
 - **Archivos grandes**: `soa_nodos.csv` (31MB) y `expediente_nodo.csv` (19MB) están en `.gitignore`
 - **Git**: `rpuenteaddiuva/dashboard-asignaciones` en GitHub
+- **Expedientes en CSVs**: Son conteos únicos POR GRUPO. Al sumar, el total depende de la granularidad del agrupamiento (más dimensiones = conteo más inflado al sumar)
 
 ---
 
