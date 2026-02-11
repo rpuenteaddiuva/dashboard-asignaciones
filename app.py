@@ -145,32 +145,56 @@ st.caption("Análisis de servicios, expedientes y estado por país y nodo")
 with st.sidebar:
     st.markdown("### 🔍 Filtros")
 
-    # Year filter
+    # Solo Concluidos Toggle
+    solo_concluidos = st.toggle("✅ Solo Concluidos", value=False)
+
+    # 1. Year Filter
     años = sorted(df['año'].unique(), reverse=True)
-    año_sel = st.multiselect("📅 Año", años, default=[max(años)])
+    años_opts = ["Todos"] + list(años)
+    año_sel = st.selectbox("📅 Año", años_opts, index=1 if len(años) > 0 else 0) # Default to latest year if possible
 
-    # Country filter
+    # 2. Month Filter
+    meses_map = {1: 'Enero', 2: 'Febrero', 3: 'Marzo', 4: 'Abril', 5: 'Mayo', 6: 'Junio',
+                 7: 'Julio', 8: 'Agosto', 9: 'Septiembre', 10: 'Octubre', 11: 'Noviembre', 12: 'Diciembre'}
+    df['mes_num'] = df['fecha'].dt.month
+    df['mes_txt'] = df['mes_num'].map(meses_map)
+    
+    meses_disponibles = sorted(df['mes_num'].unique())
+    meses_opciones = ["Todos"] + [meses_map[m] for m in meses_disponibles]
+    
+    mes_sel = st.selectbox("🗓 Mes", meses_opciones, index=0)
+
+    # 3. Country Filter
     paises_list = sorted(df['pais'].unique())
-    todos = st.checkbox("🌎 Todos los países", value=True)
-    if not todos:
-        pais_sel = st.multiselect("País", paises_list, default=paises_list[:5])
-    else:
-        pais_sel = paises_list
+    paises_opts = ["Todos"] + paises_list
+    pais_sel = st.selectbox("🌎 País", paises_opts, index=0)
 
-    # Assignment type
-    with st.expander("⚙️ Tipo de Asignación"):
-        tipos = sorted(df['tipo_asignacion'].unique())
-        tipo_sel = st.multiselect("Tipo", tipos, default=tipos)
+    # 4. Type Filter
+    tipos = sorted(df['tipo_asignacion'].unique())
+    tipos_opts = ["Todos"] + tipos
+    tipo_sel = st.selectbox("⚙️ Tipo de Asignación", tipos_opts, index=0)
 
     st.markdown("---")
-    st.caption("💡 *Concluidos* = servicios con\nestado CONCLUIDA, comparables\ncon el Reporte de Índices.")
+    st.caption("💡 *Concluidos* = servicios con estado CONCLUIDA. Selecciona filtros para refinar la vista.")
 
 # ─── Apply Filters ────────────────────────────────────────────────────────────
-mask = (
-    df['pais'].isin(pais_sel) &
-    df['año'].isin(año_sel) &
-    df['tipo_asignacion'].isin(tipo_sel)
-)
+mask = pd.Series(True, index=df.index)
+
+if año_sel != "Todos":
+    mask = mask & (df['año'] == año_sel)
+
+if mes_sel != "Todos":
+    mask = mask & (df['mes_txt'] == mes_sel)
+
+if pais_sel != "Todos":
+    mask = mask & (df['pais'] == pais_sel)
+
+if tipo_sel != "Todos":
+    mask = mask & (df['tipo_asignacion'] == tipo_sel)
+
+if solo_concluidos:
+    mask = mask & (df['estado'] == 'CONCLUIDA')
+
 dff = df[mask].copy()
 
 # Pre-compute key aggregates
